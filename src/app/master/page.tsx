@@ -1,24 +1,24 @@
 import { LayoutSwitcher } from "@/components/layout-switcher"
 import { Navbar01 } from "@/components/layout-01/navbar-01"
-import { HeroSection } from "@/components/hero-section"
+import { MasterHero } from "@/components/master/master-hero"
+import { MasterPrimaryCategories } from "@/components/master/master-primary-categories"
 import { Services02 } from "@/components/layout-02/services-02"
-import { ThreePrimaryCategoriesSection } from "@/components/three-primary-categories-section"
-import { NamexIntroSection } from "@/components/namex-intro-section"
-import { DetailingPackagesSection } from "@/components/detailing-packages-section"
-import { ShopShowcaseSection } from "@/components/shop-showcase-section"
-import { ProcessAndTeamSection } from "@/components/process-and-team-section"
-import { InterSectionVideoInsert } from "@/components/inter-section-video-insert"
-import { AboutSection } from "@/components/about-section"
-import { FranchiseSection } from "@/components/franchise-section"
-import { WarrantyAftercareSection } from "@/components/warranty-aftercare-section"
-import { BlogInsightsSection } from "@/components/blog-insights-section"
-import { RatingsSection } from "@/components/ratings-section"
-import { ContactSection } from "@/components/contact-section"
-import { Footer } from "@/components/footer"
+import { MasterNamex } from "@/components/master/master-namex"
+import { MasterPackages } from "@/components/master/master-packages"
+import { MasterShop } from "@/components/master/master-shop"
+import { MasterGallery } from "@/components/master/master-gallery"
+import { MasterProcess } from "@/components/master/master-process"
+import { MasterWarranty } from "@/components/master/master-warranty"
+import { MasterAbout } from "@/components/master/master-about"
+import { MasterBlog } from "@/components/master/master-blog"
+import { MasterRatings } from "@/components/master/master-ratings"
+import { MasterFranchise } from "@/components/master/master-franchise"
+import { MasterContact } from "@/components/master/master-contact"
+import { MasterFooter } from "@/components/master/master-footer"
 
 export const metadata = {
-  title: "Master Layout | Mr. Detailer Studio",
-  description: "Official Master Layout featuring 68% Light / 32% Dark visual balance, locked client-approved Protection Services (Services02), 3 Primary Categories (PPF, Coatings, Auto Mods), NameX Studio, Detailing Packages, Shop Display, Inter-section Video, Process & Team, About Us, Franchise, Warranty, Insights, Ratings, and Footer.",
+  title: "Master Homepage | Mr. Detailer Studio",
+  description: "Refined Master Homepage featuring 68% Light / 32% Dark visual balance, 3 Primary Categories (Paint Protection, Coatings, Auto Mods), locked approved Protection Services, NAMEX STUDIO, Detailing Packages, Shop Display, Gallery, Our Process, Warranty & Aftercare, About Us, Blogs & Insights, Ratings, Franchise, and Booking Contact.",
 }
 
 export default function MasterLayoutPage() {
@@ -28,52 +28,52 @@ export default function MasterLayoutPage() {
       <LayoutSwitcher />
       <Navbar01 />
 
-      {/* 1. Hero Section (DARK) */}
-      <HeroSection />
+      {/* 1. Hero Section (DARK bg-[#0B0D0A]) */}
+      <MasterHero />
 
-      {/* 2. Client-Approved Protection Services Section - Services02 (LOCKED) (LIGHT bg-white) */}
-      <Services02 />
+      {/* 2. Services Categories: Paint Protection, Coatings, Auto Mods (Horizontal Rail) (LIGHT bg-[#F9F9FB]) */}
+      <MasterPrimaryCategories />
 
-      {/* 3. Three Primary Categories: Paint Protection, Coatings, Auto Mods (LIGHT bg-[#F9F9FB]) */}
-      <ThreePrimaryCategoriesSection />
+      {/* 3. Client-Approved Protection Services Section - Services02 (LOCKED) (LIGHT bg-white) */}
+      <div id="protection">
+        <Services02 />
+      </div>
 
-      {/* 4. NameX Introduction & Video (DARK bg-[#0B0D0A]) */}
-      <NamexIntroSection />
+      {/* 4. NameX Studio & Video (Dominant NAMEX STUDIO Title) (DARK bg-[#0B0D0A]) */}
+      <MasterNamex />
 
-      {/* 5. Detailing Packages (LIGHT bg-white) */}
-      <DetailingPackagesSection />
+      {/* 5. Detailing Packages (Horizontal Carousel) (LIGHT bg-white) */}
+      <MasterPackages />
 
-      {/* 6. Shop Showcase - Display Only (LIGHT bg-[#F9F9FB]) */}
-      <ShopShowcaseSection />
+      {/* 6. Shop Showcase - Display Only (Horizontal Product Rail) (LIGHT bg-[#F9F9FB]) */}
+      <MasterShop />
 
-      {/* 7. Our Process & Team (LIGHT bg-white) */}
-      <ProcessAndTeamSection />
+      {/* 7. Single Unified Gallery Visual Teaser + Integrated Video Showcase (DARK bg-[#0B0D0A]) */}
+      <MasterGallery />
 
-      {/* 8. Inter-Section Completed Work Video Insert (DARK bg-[#0B0D0A]) */}
-      <InterSectionVideoInsert />
+      {/* 8. Our Process (Compact 5-Step Horizontal Rail) (LIGHT bg-[#F9F9FB]) */}
+      <MasterProcess />
 
-      {/* 9. About Us (LIGHT bg-[#F9F9FB]) */}
-      <AboutSection />
+      {/* 9. Warranty & Aftercare (DARK bg-[#0B0D0A]) */}
+      <MasterWarranty />
 
-      {/* 10. Franchise With Us (LIGHT bg-white) */}
-      <FranchiseSection />
+      {/* 10. About Us (LIGHT bg-[#F9F9FB]) */}
+      <MasterAbout />
 
-      {/* 11. Warranty & Aftercare (DARK bg-[#0B0D0A]) */}
-      <WarrantyAftercareSection />
+      {/* 11. Blogs & Insights (Horizontal Editorial Rail) (LIGHT bg-white) */}
+      <MasterBlog />
 
-      {/* 12. Blogs & Insights (LIGHT bg-[#F9F9FB]) */}
-      <BlogInsightsSection />
+      {/* 12. Client Ratings & Reviews (LIGHT bg-slate-50) */}
+      <MasterRatings />
 
-      {/* 13. Client Ratings & Reviews (LIGHT bg-white) */}
-      <RatingsSection />
+      {/* 13. Franchise With Us (LIGHT bg-white) */}
+      <MasterFranchise />
 
-      {/* 14. Book Appointment & Contact Us (DARK bg-[#0B0D0A]) */}
-      <ContactSection />
+      {/* 14. Book Appointment & Contact Us (Ludhiana & Jammu Studios) (DARK bg-[#0B0D0A]) */}
+      <MasterContact />
 
-      {/* 15. Comprehensive Footer (DARK bg-[#0B0D0A]) */}
-      <Footer />
+      {/* 15. Comprehensive Moderately Reduced Footer (DARK bg-[#0B0D0A]) */}
+      <MasterFooter />
     </div>
   )
 }
-
-
