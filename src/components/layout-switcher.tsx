@@ -6,7 +6,9 @@ import { usePathname } from "next/navigation"
 import { Layers, ChevronLeft, ChevronRight } from "lucide-react"
 
 const LAYOUTS = [
-  { id: "master", label: "★ Master Layout", href: "/master", tag: "Final Selected Layout" },
+  { id: "ohio", label: "★ Ohio Layout", href: "/ohio", tag: "Digital Studio" },
+  { id: "master-2", label: "★ Master 2 Layout", href: "/master-2", tag: "Client Combined" },
+  { id: "master", label: "Master Baseline", href: "/master", tag: "Locked Baseline" },
   { id: "original", label: "Original", href: "/", tag: "Baseline" },
   { id: "01", label: "Layout 01", href: "/layout-01", tag: "Light & Service-First" },
   { id: "02", label: "Layout 02", href: "/layout-02", tag: "Dark Luxury Studio" },
@@ -87,9 +89,9 @@ export function LayoutSwitcher() {
           <button
             type="button"
             onClick={() => handleScroll("right")}
-            aria-label="Scroll right to view Layout 4 & 5"
+            aria-label="Scroll right"
             className="flex size-7 shrink-0 items-center justify-center rounded-full bg-brand text-brand-foreground hover:scale-110 transition-all ml-1 shadow-md shadow-brand/20"
-            title="Click to view Layout 04 & 05"
+            title="Click to view all layouts"
           >
             <ChevronRight className="size-4 stroke-[3]" />
           </button>
