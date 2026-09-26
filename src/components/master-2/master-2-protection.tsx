@@ -1,220 +1,160 @@
 "use client"
 
-import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Sparkles, ShieldCheck, Droplets, Gauge, Layers, ArrowUpRight, CheckCircle2, ChevronLeft, ChevronRight } from "lucide-react"
+import { ArrowUpRight } from "lucide-react"
 
 const PROTECTION_SERVICES = [
   {
-    id: "graphene",
+    id: "ceramic",
     num: "01",
-    title: "GRAPHENE COATING",
-    subtitle: "10H GRAPHENE OXIDE",
-    image: "/images/IMG_20260809_180823.jpg.jpeg",
-    icon: Sparkles,
-    badge: "GRAPHENE SHIELD",
-    tag: "10H OXIDE",
-    specs: ["10H GRAPHENE OXIDE", "HEAT DISSIPATION", "EXTREME HYDROPHOBIC", "3-YR WARRANTY"],
+    step: "STEP 01",
+    title: "CERAMIC COATING",
+    shortTitle: "CERAMIC",
+    subtitle: "Permanent glass matrix sealing clearcoat against UV oxidation, chemical etching, and environmental fallout.",
+    image: "/images/IMG_20260809_181431.jpg.jpeg",
+    side: "left",
   },
   {
     id: "ppf",
     num: "02",
+    step: "STEP 02",
     title: "PAINT PROTECTION FILM",
-    subtitle: "SELF-HEALING FILM",
+    shortTitle: "PPF ARMOR",
+    subtitle: "Optically clear, 10-mil self-healing polyurethane film engineered to absorb high-impact stone chips.",
     image: "/images/IMG_20260809_180906.jpg.jpeg",
-    icon: ShieldCheck,
-    badge: "FLAGSHIP ARMOR",
-    tag: "SELF-HEALING",
-    specs: ["10-MIL URETHANE FILM", "SELF-HEALING CLEARCOAT", "STONE CHIP DEFENSE", "VIN DIGITAL WARRANTY"],
-  },
-  {
-    id: "ceramic",
-    num: "03",
-    title: "CERAMIC COATING",
-    subtitle: "NANO GLASS MATRIX",
-    image: "/images/IMG_20260809_181431.jpg.jpeg",
-    icon: Layers,
-    badge: "PERMANENT SHINE",
-    tag: "9H NANO SHIELD",
-    specs: ["9H HARDNESS MATRIX", "UV ETCH DEFENSE", "HIGH-GLOSS REFLECTION", "5-YR STUDIO WARRANTY"],
+    side: "right",
   },
   {
     id: "correction",
-    num: "04",
+    num: "03",
+    step: "STEP 03",
     title: "PAINT CORRECTION",
-    subtitle: "SWIRL-FREE FINISH",
+    shortTitle: "CORRECTION",
+    subtitle: "Microscopic pad-and-compound leveling eradicating up to 95% of swirl marks and buffer trails.",
     image: "/images/IMG_20260809_181154.jpg.jpeg",
-    icon: Gauge,
-    badge: "RESTORATION",
-    tag: "ZERO DEFECTS",
-    specs: ["MULTI-PASS POLISH", "95%+ SWIRL ERASURE", "RAKING LIGHT AUDIT", "FACTORY CLEAR GLOSS"],
+    side: "left",
   },
   {
     id: "interior",
-    num: "05",
+    num: "04",
+    step: "STEP 04",
     title: "INTERIOR DETAILING",
-    subtitle: "LUXURY CABIN CARE",
+    shortTitle: "INTERIOR",
+    subtitle: "Hot steam extraction, organic leather feeding, Alcantara revival, and germicidal ozone purge.",
     image: "/images/IMG_20260809_181254.jpg.jpeg",
-    icon: Droplets,
-    badge: "CABIN SPA",
-    tag: "CABIN CARE",
-    specs: ["HOT STEAM SANITIZE", "LEATHER CONDITIONING", "ALCANTARA REVIVAL", "OZONE AIR PURIFIER"],
+    side: "right",
   },
 ]
 
 export function Master2Protection() {
-  const [activeCard, setActiveCard] = useState("graphene")
-
-  const activeIndex = PROTECTION_SERVICES.findIndex((s) => s.id === activeCard)
-
-  const nextCard = () => {
-    const nextIdx = (activeIndex + 1) % PROTECTION_SERVICES.length
-    setActiveCard(PROTECTION_SERVICES[nextIdx].id)
-  }
-
-  const prevCard = () => {
-    const prevIdx = (activeIndex - 1 + PROTECTION_SERVICES.length) % PROTECTION_SERVICES.length
-    setActiveCard(PROTECTION_SERVICES[prevIdx].id)
-  }
-
   return (
-    <section id="protection" className="relative w-full bg-white py-16 lg:py-24 text-slate-950 border-b border-slate-200">
+    <section id="protection" className="relative w-full bg-[#0B0D0A] py-16 lg:py-24 text-white border-b border-white/10 overflow-hidden font-sans">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         
-        {/* Header with Controller */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-slate-200 pb-8 mb-12">
+        {/* Section Header */}
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 border-b border-white/10 pb-8 mb-16">
           <div>
-            <span className="text-xs font-black uppercase tracking-[0.3em] text-black bg-brand px-3.5 py-1 rounded-full border border-black/10">
-              EXPANDABLE PRESENTATION
+            <span className="text-xs font-mono font-bold uppercase tracking-[0.3em] text-brand block mb-1">
+              SURFACE PROTECTION &amp; RESTORATION
             </span>
-            <h2 className="mt-3 text-5xl sm:text-7xl lg:text-8xl font-black tracking-tight text-slate-950 uppercase leading-none">
+            <h2 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight text-white uppercase leading-none">
               PROTECTION
             </h2>
           </div>
 
-          <div className="flex items-center gap-3">
-            {/* Slide Navigation Buttons */}
-            <div className="flex items-center gap-2">
-              <button
-                type="button"
-                onClick={prevCard}
-                aria-label="Previous Service"
-                title="Slide to Previous Service"
-                className="flex size-11 items-center justify-center rounded-full bg-slate-100 text-slate-950 hover:bg-slate-950 hover:text-white transition border border-slate-300 shadow-md cursor-pointer"
-              >
-                <ChevronLeft className="size-5 stroke-[3]" />
-              </button>
-              <button
-                type="button"
-                onClick={nextCard}
-                aria-label="Next Service"
-                title="Slide to Next Service"
-                className="flex size-11 items-center justify-center rounded-full bg-brand text-black hover:scale-105 transition shadow-md border border-black/10 cursor-pointer"
-              >
-                <ChevronRight className="size-5 stroke-[3]" />
-              </button>
-            </div>
-
-            <Link
-              href="#contact"
-              className="inline-flex items-center gap-2 rounded-full bg-slate-950 px-7 py-3.5 text-xs font-black text-brand hover:bg-brand hover:text-black transition-all shrink-0 uppercase tracking-widest shadow-xl border border-slate-950"
-            >
-              QUOTE <ArrowUpRight className="size-4 text-brand" />
-            </Link>
-          </div>
+          <Link
+            href="#contact"
+            className="inline-flex items-center gap-2 rounded-full bg-brand px-7 py-3.5 text-xs font-black uppercase tracking-wider text-black hover:bg-white transition-all shadow-lg shrink-0 self-start sm:self-auto"
+          >
+            <span>INQUIRE PROTECTION</span>
+            <ArrowUpRight className="size-4 stroke-[2.5]" />
+          </Link>
         </div>
 
-        {/* 5-COLUMN EXPANDABLE HORIZONTAL PRESENTATION */}
-        <div className="relative flex flex-col lg:flex-row gap-4 h-[560px] lg:h-[480px]">
-          {PROTECTION_SERVICES.map((item) => {
-            const Icon = item.icon
-            const isExpanded = activeCard === item.id
+        {/* STAGGERED TIMELINE / CONNECTOR SPINE LAYOUT (Matching Uploaded How It Works Reference Screenshots) */}
+        <div className="relative max-w-5xl mx-auto">
+          
+          {/* Central Vertical Connector Spine Line */}
+          <div className="absolute left-4 md:left-1/2 top-4 bottom-4 w-0.5 bg-white/20 md:-translate-x-1/2 z-0" />
 
-            return (
-              <div
-                key={item.id}
-                onMouseEnter={() => setActiveCard(item.id)}
-                onClick={() => setActiveCard(item.id)}
-                className={`relative overflow-hidden rounded-3xl border transition-all duration-700 cursor-pointer flex flex-col justify-between p-6 sm:p-7 ${
-                  isExpanded
-                    ? "lg:flex-[3.5] bg-slate-950 text-white border-slate-950 shadow-2xl shadow-slate-950/30"
-                    : "lg:flex-1 bg-slate-100/90 text-slate-900 border-slate-200 hover:border-slate-400"
-                }`}
-              >
-                {/* Background Image */}
-                <Image
-                  src={item.image}
-                  alt={item.title}
-                  fill
-                  className={`object-cover transition-all duration-700 ${
-                    isExpanded ? "opacity-40 scale-105" : "opacity-15 hover:opacity-25"
-                  }`}
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                />
-                <div className={`absolute inset-0 z-0 transition-colors duration-700 ${
-                  isExpanded ? "bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent" : "bg-gradient-to-t from-slate-100 via-slate-100/40 to-transparent"
-                }`} />
+          {/* Staggered Protection Service Cards */}
+          <div className="space-y-12 md:space-y-16 relative z-10">
+            {PROTECTION_SERVICES.map((item) => {
+              const isLeft = item.side === "left"
 
-                {/* Top Header */}
-                <div className="relative z-10 flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    <span className={`flex size-10 items-center justify-center rounded-2xl border backdrop-blur-md transition-colors ${
-                      isExpanded ? "bg-white/10 border-white/20 text-brand" : "bg-white border-slate-200 text-slate-900 shadow-sm"
-                    }`}>
-                      <Icon className="size-5" />
-                    </span>
-                    <span className={`text-xs font-mono font-bold ${isExpanded ? "text-brand" : "text-slate-400"}`}>
-                      {item.num}
-                    </span>
+              return (
+                <div
+                  key={item.id}
+                  className="relative flex flex-col md:flex-row items-center"
+                >
+                  {/* Central Node Dot (Connecting to Spine) */}
+                  <div className="absolute left-4 md:left-1/2 top-8 md:top-1/2 -translate-x-1/2 md:-translate-y-1/2 z-20 size-5 rounded-full border-2 border-[#0B0D0A] bg-brand shadow-[0_0_15px_rgba(229,252,160,0.6)] flex items-center justify-center">
+                    <span className="size-1.5 rounded-full bg-black" />
                   </div>
-                  <span className={`rounded-full px-3.5 py-1 text-[10px] font-black tracking-wider ${
-                    isExpanded ? "bg-brand text-black" : "bg-slate-950 text-white"
-                  }`}>
-                    {item.badge}
-                  </span>
-                </div>
 
-                {/* Card Content */}
-                <div className="relative z-10 mt-auto">
-                  <span className={`text-[10px] font-black uppercase tracking-widest ${
-                    isExpanded ? "text-brand" : "text-slate-500"
+                  {/* Card Container (Positioned Left or Right on Desktop) */}
+                  <div className={`w-full pl-12 md:pl-0 ${
+                    isLeft
+                      ? "md:w-[46%] md:mr-auto"
+                      : "md:w-[46%] md:ml-auto"
                   }`}>
-                    {item.subtitle}
-                  </span>
-                  <h3 className={`text-2xl sm:text-4xl font-black uppercase tracking-tight leading-tight mt-1 ${
-                    isExpanded ? "text-white" : "text-slate-950"
-                  }`}>
-                    {item.title}
-                  </h3>
+                    <div className="relative overflow-hidden rounded-3xl border border-white/20 bg-black p-8 sm:p-10 shadow-2xl group hover:border-brand/70 transition-all duration-500">
+                      
+                      {/* Full-Bleed Background Image */}
+                      <Image
+                        src={item.image}
+                        alt={item.title}
+                        fill
+                        className="object-cover opacity-50 group-hover:scale-105 transition-transform duration-700"
+                        sizes="(max-width: 768px) 100vw, 45vw"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent pointer-events-none" />
 
-                  {isExpanded && (
-                    <div className="mt-5 space-y-4 animate-fadeIn">
-                      <div className="grid grid-cols-2 gap-2">
-                        {item.specs.map((spec) => (
-                          <div key={spec} className="flex items-center gap-2 text-[11px] font-bold tracking-wider text-white bg-white/10 px-3 py-1.5 rounded-xl border border-white/10">
-                            <CheckCircle2 className="size-3.5 text-brand shrink-0" />
-                            <span className="truncate">{spec}</span>
-                          </div>
-                        ))}
+                      {/* Large Faint Step Number Watermark */}
+                      <span className="absolute top-3 right-6 font-mono font-black text-6xl sm:text-7xl text-white/10 group-hover:text-brand/20 transition-colors select-none pointer-events-none">
+                        {item.num}
+                      </span>
+
+                      {/* Card Content */}
+                      <div className="relative z-10 flex flex-col justify-between min-h-[220px]">
+                        <div>
+                          <span className="text-xs font-mono font-extrabold uppercase tracking-widest text-brand bg-black/70 px-3 py-1 rounded-full border border-brand/30 inline-block mb-3">
+                            {item.step}
+                          </span>
+
+                          <h3 className="text-2xl sm:text-3xl font-black uppercase text-white leading-tight">
+                            {item.title}
+                          </h3>
+
+                          <p className="mt-2 text-xs text-white/75 leading-relaxed font-normal max-w-sm">
+                            {item.subtitle}
+                          </p>
+                        </div>
+
+                        {/* Action CTA */}
+                        <div className="pt-6 border-t border-white/15 flex items-center justify-between mt-4">
+                          <span className="text-[10px] font-mono text-white/50 uppercase tracking-widest">
+                            VERIFIED PROTECTION
+                          </span>
+                          <Link
+                            href="#contact"
+                            className="inline-flex items-center gap-1.5 rounded-full bg-brand px-5 py-2 text-xs font-black uppercase tracking-wider text-black hover:bg-white transition-all shadow-md"
+                          >
+                            <span>INQUIRE</span>
+                            <ArrowUpRight className="size-3.5 stroke-[2.5]" />
+                          </Link>
+                        </div>
                       </div>
 
-                      <div className="pt-3 border-t border-white/10 flex items-center justify-between">
-                        <span className="text-[10px] font-black uppercase tracking-widest text-white/50">WARRANTY</span>
-                        <Link
-                          href="#contact"
-                          className="inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-widest text-brand hover:underline"
-                        >
-                          <span>BOOK</span>
-                          <ArrowUpRight className="size-4" />
-                        </Link>
-                      </div>
                     </div>
-                  )}
+                  </div>
+
                 </div>
-              </div>
-            )
-          })}
+              )
+            })}
+          </div>
+
         </div>
 
       </div>
