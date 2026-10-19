@@ -25,7 +25,7 @@ export function Navigation() {
             className="oa-nav-expand-btn"
             aria-label={`Expand ${item.label}`}
             aria-expanded={expanded === item.label}
-            onClick={() => setExpanded(curr => curr === item.label ? null : item.label)}
+            onClick={() => setExpanded(item.label)}
           >
             +
           </button>
@@ -85,6 +85,7 @@ export function Navigation() {
           ref={trigger}
           type="button"
           className="o31-menu-button"
+          aria-label="Open navigation"
           aria-haspopup="dialog"
           aria-controls="o31-menu"
           aria-expanded={open}

@@ -513,7 +513,7 @@ detailPages["packages-journey"] = {
   kind: "packages",
   title: "Packages Journey — Service Discovery",
   eyebrow: "PACKAGES JOURNEY",
-  intro: "Explore our five comprehensive service categories, from thermal dry-steam decontamination to multi-stage concours paint correction. Inspect inclusions and prepare your vehicle enquiry."
+  intro: "Explore five ways to care for your car, compare catalogue inclusions and prepare a vehicle enquiry."
 };
 
 detailPages["packages"] = {
@@ -521,7 +521,7 @@ detailPages["packages"] = {
   kind: "packages",
   title: "Detailing Packages & Polishing Scope",
   eyebrow: "PRECISION PACKAGES",
-  intro: "Compare Paint Enhancement vs. Multi-Stage Correction, inspect studio inclusions, and review the technical difference between synthetic sealants and permanent ceramic SiC quartz."
+  intro: "Compare one-step Paint Enhancement and two-step Paint Correction, explore the package inclusions and discuss suitable care with the studio."
 };
 
 detailPages["detailing"] = {
@@ -646,4 +646,58 @@ detailPages["meet-us"] = {
 
 detailPages["paint-protection-film"] = detailPages["ppf"];
 detailPages["franchise"] = detailPages["own-a-studio"];
+
+// Reviewed client references, 19 October 2026. Avoid unsupported product claims.
+for (const [slug, intro] of Object.entries({
+  coatings: "Compare the Ceramic, Graphene and Borophene catalogue collections. Confirm preparation, suitability, maintenance and written terms with the studio.",
+  detailing: "Explore five detailing packages, their catalogue inclusions and the difference between a one-step enhancement and two-step correction.",
+  "auto-mods": "Explore bodywork, cabin and finishing options. Build a working brief, then confirm compatibility and scope with the studio.",
+  automods: "Choose services for your build sheet. Inspect the vehicle, agree the scope and review the completed finish.",
+  autotuning: "Explore Engine, ECU, Exhaust and Chassis systems. Vehicle-specific assessment and written scope come before modifications.",
+  "customisation-build": "Explore Understated, Sport-inspired and Expressive moodboards, then prepare a vehicle-specific wishlist.",
+  "car-care": "Choose a starting point for a fresher cabin, cleaner exterior or more refined finish. Suitability and timing follow assessment.",
+  "car-care-planner": "Compare package choices and prepare your vehicle-care enquiry. No professional assessment or appointment is confirmed online.",
+  "detailing-menu": "Choose interior care, exterior detailing, paint enhancement or focused treatments. PPF and coatings are separate services.",
+  shop: "Browse car-care essentials and prepare an availability enquiry. Confirm products, pack sizes and suitability with the studio.",
+  "shop-care-shelf": "Find everyday car-care essentials, build your list and ask the studio about availability.",
+  "about-us": "From dealership car care to dedicated detailing studios. A journey shaped by experience, attention to detail and the people who trust us with their cars.",
+  "about-ohio": "From dealership car care to dedicated detailing studios. Explore the story and the Prepare, Perfect, Protect, Preserve framework.",
+  journal: "Practical car-care guidance and product information. Latest Updates is an editorial preview until verified news is published.",
+  "detail-journal": "Explore detailing tips, product guides and maintenance questions. Follow the instructions for your selected product.",
+})) detailPages[slug].intro = intro;
+
+detailPages.process.intro = "Understand the vehicle, discuss your priorities and agree suitable work before treatment.";
+detailPages.process.sections = [
+  { title: "Prepare", text: "Understand the surface. Start with suitable preparation." },
+  { title: "Perfect", text: "Give application and finishing details the attention they need." },
+  { title: "Protect", text: "Choose suitable products with clear expectations and terms." },
+  { title: "Preserve", text: "Support the result with practical aftercare and maintenance.", slug: "warranty-care-hub" },
+];
+detailPages.ppf.intro = "Discuss suitable film, vehicle coverage and finish options with the studio. Confirm the selected product’s specifications, installation scope and written terms.";
+detailPages.ppf.sections = [
+  { title: "Choose your finish", text: "Compare physical samples with your vehicle. Confirm the appearance and product details before choosing." },
+  { title: "Plan your coverage", text: "Discuss exposed areas, intended use and the surfaces you want covered." },
+  { title: "Care for the result", text: "Follow the installed product’s written instructions and maintenance schedule.", slug: "warranty-care-hub" },
+];
+detailPages.services.intro = "Choose around your vehicle, condition and priorities. Explore the collection, then discuss suitable work with the studio.";
+detailPages.services.sections = [
+  { title: "Paint Protection Film", text: "Discuss film, finish and coverage options.", slug: "ppf" },
+  { title: "Coatings Gallery", text: "Explore Ceramic, Graphene and Borophene packages.", slug: "coatings-gallery" },
+  { title: "Packages Journey", text: "Five approaches to caring for your car.", slug: "packages-journey" },
+  { title: "Packages", text: "Compare inclusions, enhancement and correction.", slug: "packages" },
+  { title: "Detailing Menu", text: "Choose a starting point and focused interests.", slug: "detailing-menu" },
+  { title: "Car Care Planner", text: "Plan around your vehicle and concerns.", slug: "car-care-planner" },
+  { title: "Auto Mods", text: "Prepare a bodywork, cabin and finishing build sheet.", slug: "automods" },
+  { title: "Auto Tuning", text: "Engine, ECU, Exhaust and Chassis assessment.", slug: "autotuning" },
+  { title: "Customisation Build", text: "Moodboards and a vehicle-specific wishlist.", slug: "customisation-build" },
+  { title: "Shop Care Shelf", text: "Product discovery and availability enquiries.", slug: "shop-care-shelf" },
+  { title: "Warranty Care Hub", text: "Written terms, maintenance and claim-support guidance.", slug: "warranty-care-hub" },
+  { title: "Own a Studio", text: "Explore partnership models and support.", slug: "own-a-studio" },
+  { title: "About Ohio", text: "Our story and studio framework.", slug: "about-ohio" },
+  { title: "Detail Journal", text: "Practical guides and clearly marked editorial previews.", slug: "detail-journal" },
+];
+for (const page of Object.values(detailPages)) {
+  const canonical = ({ coatings: "coatings", packages: "detailing", planner: "car-care-planner", "auto-mods": "auto-mods", tuning: "customisation-build", shop: "shop", about: "about-us", journal: "detail-journal" } as Record<string, string>)[page.kind ?? ""];
+  if (canonical) page.intro = detailPages[canonical].intro;
+}
 

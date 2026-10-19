@@ -23,6 +23,11 @@
 }
 
 /* --- Fully Transparent Navigation Rail in Both Themes --- */
+.ohio-client-preview .ohio-rebuild.or-preview-one .or-nav-row { min-height: 28px !important; }
+.ohio-client-preview .ohio-rebuild.or-preview-one .or-nav-link { padding: 4px 0 !important; }
+.ohio-client-preview .ohio-rebuild.or-preview-one .or-menu-toggle { width: 36px !important; height: 36px !important; }
+.ohio-client-preview .ohio-rebuild.or-preview-one .or-hero-panel .or-panel-heading { font-size: clamp(27px, 2.45vw, 39px); }
+.ohio-client-preview .ohio-rebuild.or-preview-one .or-hero-panel .or-product-line { font-size: clamp(11px, .95vw, 14px); }
 .ohio-client-preview .ohio-rebuild.or-preview-one .or-rail,
 .ohio-client-preview .ohio-rebuild.or-preview-one[data-theme="light"] .or-rail,
 .ohio-rebuild .or-rail,
@@ -36,6 +41,10 @@
 }
 
 /* --- Theme Control Switch (Icon Only, No Text) --- */
+@media (max-width: 1180px) {
+  .ohio-preview-two .o31 .o31-rail { padding-right: 84px !important; }
+  .ohio-preview-two .o31-menu-button .or-menu-icon { width: 20px; height: 20px; }
+}
 .ohio-client-preview .ohio-rebuild.or-preview-one .ohio-theme-control,
 .ohio-rebuild .ohio-theme-control,
 .ohio-preview-two .ohio-theme-control {
@@ -121,6 +130,13 @@
 }
 .ohio-rebuild[data-theme="light"] .or-rail[data-over-hero="true"] .or-brand-logo-light {
   display: none !important;
+}
+.ohio-rebuild .or-rail[data-over-hero="true"] .or-nav-link {
+  color: #f4f3ee !important;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, .8);
+}
+.ohio-rebuild .or-rail[data-over-hero="true"] .or-nav-link[aria-current="location"] {
+  color: #e5fca0 !important;
 }
 .oa-brand-logo-link {
   display: inline-flex;
@@ -248,7 +264,7 @@
   margin: 0;
 }
 .ohio-client-preview .ohio-rebuild.or-preview-one .or-hero-panel .or-panel-heading {
-  font-size: clamp(24px, 2.2vw, 36px);
+  font-size: clamp(27px, 2.45vw, 39px);
   line-height: 1.12;
   font-weight: 600;
   letter-spacing: -0.02em;
@@ -256,7 +272,7 @@
   text-transform: uppercase;
 }
 .ohio-client-preview .ohio-rebuild.or-preview-one .or-hero-panel .or-product-line {
-  font-size: clamp(12px, 1.05vw, 15px);
+  font-size: clamp(11px, .95vw, 14px);
   line-height: 1.5;
   color: inherit;
   opacity: 0.9;
@@ -294,7 +310,7 @@
   }
 
   .ohio-client-preview .ohio-rebuild.or-preview-one .or-nav-row {
-    min-height: 32px !important;
+    min-height: 28px !important;
     font-size: 12px !important;
     letter-spacing: 0.07em !important;
     gap: 4px !important;
@@ -302,7 +318,7 @@
 
   .ohio-client-preview .ohio-rebuild.or-preview-one .or-nav-link {
     font-size: 12px !important;
-    padding: 5px 0 !important;
+    padding: 4px 0 !important;
     letter-spacing: 0.07em !important;
   }
 
@@ -311,8 +327,8 @@
   }
 
   .ohio-client-preview .ohio-rebuild.or-preview-one .or-menu-toggle {
-    width: 40px !important;
-    height: 40px !important;
+    width: 36px !important;
+    height: 36px !important;
   }
 
   .ohio-client-preview .ohio-rebuild.or-preview-one .or-brand-logo {

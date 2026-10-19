@@ -22,80 +22,89 @@ interface NamexProduct {
 
 const namexProducts: NamexProduct[] = [
   {
-    id: "ceramic-kit",
-    name: "NameX Ceramic Matrix 9H",
-    code: "NX-C01",
-    tagline: "SiC Molecular Glass Shield · 50ml Complete Kit",
-    image: "/images/namex-ceramic-kit.jpg",
-    alt: "NameX Ceramic Matrix 9H boxed set with bottle, applicator and microfiber cloth",
-    spec: "50ml Active Formulation + Leveling Block + Microfiber",
-    finish: "Deep Wet Glass Optical Gloss",
-    durability: "3+ Years Lab Verified",
-    highlights: [
-      "Pure Silicon Carbide (SiC) cross-linking matrix",
-      "Extreme chemical resistance against pH 2–13 detergents",
-      "Super-hydrophobic 112° water contact angle",
-      "Engineered for hand-application under cleanroom lighting"
+    "id": "ceramic-kit",
+    "name": "NameX Ceramic Kit",
+    "code": "CERAMIC",
+    "tagline": "Coating presentation kit",
+    "image": "/images/namex-ceramic-kit.jpg",
+    "alt": "NameX Ceramic Matrix kit with bottle, applicator and cloth",
+    "spec": "Confirm current kit contents and pack size",
+    "finish": "Discuss the finish with the studio",
+    "durability": "See selected package and written terms",
+    "highlights": [
+      "Explore Ceramic coating packages",
+      "Confirm suitability for your vehicle",
+      "Follow product-specific aftercare"
     ],
-    description:
-      "A complete studio coating set featuring our 50ml NX-C01 active formulation, high-density foam application block, and lint-free leveling towel in custom presentation packaging."
+    "description": "Explore the NameX Ceramic presentation kit. Discuss the selected coating, application and care requirements with the studio."
   },
   {
-    id: "graphene-borophene",
-    name: "NameX Graphene & Borophene Editions",
-    code: "NX-G02 / NX-B03",
-    tagline: "Carbon Enhanced & 2D Borophene Surface Science",
-    image: "/images/namex-graphene-borophene-kit.jpg",
-    alt: "NameX Graphene and Borophene boxed coating kits with custom presentation ribbon",
-    spec: "Twin 50ml Specialized Formula Sets with Dual Towels",
-    finish: "Reflective Slickness & Anti-Static Sheen",
-    durability: "4+ to 5+ Years Structural Resilience",
-    highlights: [
-      "Graphene oxide 10H structural thermal dissipation",
-      "Borophene 2D hexagonal atomic lattice hardness",
-      "Reduced water spotting via conductive heat dispersal",
-      "Precision boxed sets with branded studio accessories"
+    "id": "graphene-borophene",
+    "name": "NameX Graphene & Borophene",
+    "code": "COATINGS",
+    "tagline": "Two coating collections",
+    "image": "/images/namex-graphene-borophene-kit.jpg",
+    "alt": "NameX Graphene and Borophene boxed coating kits",
+    "spec": "Confirm product and pack details with the studio",
+    "finish": "Compare the coating collections",
+    "durability": "See selected package and written terms",
+    "highlights": [
+      "Graphene collection",
+      "Borophene collection",
+      "Product-specific application and care"
     ],
-    description:
-      "Our most advanced molecular surface treatments presented in dedicated black-ribbon (Graphene Carbon Enhanced) and blue-ribbon (Borophene Advanced Surface) presentation kits."
+    "description": "Graphene and Borophene presentation kits from the supplied photographs. Compare catalogue packages before choosing a treatment."
   },
   {
-    id: "coatings-trio",
-    name: "NameX Molecular Coating Trio",
-    code: "NX-TRIO (C01 · G02 · B03)",
-    tagline: "The Full Spectrum of Surface Protection Formulations",
-    image: "/images/namex-bottles-trio.jpg",
-    alt: "Trio lineup of NameX Ceramic, Graphene, and Borophene coating bottles",
-    spec: "Ceramic 9H · Carbon Graphene · 2D Borophene (50ml each)",
-    finish: "Multi-Tiered Optical Clarity & Slickness",
-    durability: "Tailored to Vehicle Operating Environment",
-    highlights: [
-      "Ceramic NX-C01: High-gloss hydrophobic sacrificial barrier",
-      "Graphene NX-G02: Carbon enhanced deep optical finish & chemical resistance",
-      "Borophene NX-B03: Advanced surface high clarity & extended durability",
-      "Ergonomic pump dispensers for measured droplet saturation"
+    "id": "coatings-trio",
+    "name": "NameX Coating Collection",
+    "code": "COLLECTION",
+    "tagline": "Ceramic · Graphene · Borophene",
+    "image": "/images/namex-bottles-trio.jpg",
+    "alt": "NameX Ceramic, Graphene and Borophene bottle lineup",
+    "spec": "Product details confirmed by the studio",
+    "finish": "Choose around your vehicle and care preferences",
+    "durability": "See selected package and written terms",
+    "highlights": [
+      "Ceramic",
+      "Graphene",
+      "Borophene"
     ],
-    description:
-      "The complete formulation lineup displayed side-by-side: each engineered with distinct chemical matrices to address specific climate challenges, paint hardness, and owner preferences."
+    "description": "The three coating families, shown using the supplied product photograph. Confirm the selected product, preparation and maintenance with the studio."
   },
   {
-    id: "ppf-boxes",
-    name: "NameX Paint Protection Film",
-    code: "NX-PPF",
-    tagline: "Optically Clear Aliphatic TPU · Self-Healing Protection",
-    image: "/images/namex-ppf-boxes.jpg",
-    alt: "NameX Paint Protection Film boxed rolls in studio with official branding",
-    spec: "Rolls in Gloss & Stealth Matte Options",
-    finish: "Mirror Clear Gloss or OEM-Match Satin Matte",
-    durability: "Multi-Year Self-Healing Warranty",
-    highlights: [
-      "Self-healing elastomeric polymer memory under heat",
-      "Non-yellowing aliphatic TPU core with optical purity",
-      "High tensile puncture resistance against stone chips",
-      "Presented in official NameX studio rolls for custom plotter cutting"
+    "id": "ppf-boxes",
+    "name": "NameX Film Collection",
+    "code": "PPF",
+    "tagline": "Paint protection film",
+    "image": "/images/namex-ppf-boxes.jpg",
+    "alt": "NameX paint protection film packaging",
+    "spec": "Confirm selected film and coverage",
+    "finish": "Compare real finish samples with the studio",
+    "durability": "Refer to the installed product’s written warranty",
+    "highlights": [
+      "Discuss the areas to cover",
+      "Review material and finish samples",
+      "Confirm installation scope and aftercare"
     ],
-    description:
-      "Authentic NameX Paint Protection Film packaging ready for precision digital patterning and seamless edge-wrapped studio installation."
+    "description": "NameX paint protection film packaging from the supplied studio images. Ask the team about suitable film, coverage and finish options."
+  },
+  {
+    "id": "ppf-trio",
+    "name": "NameX Film Presentation",
+    "code": "FILM",
+    "tagline": "The NameX film collection",
+    "image": "/images/namex-ppf-trio.png",
+    "alt": "Three NameX paint protection film boxes on a white background",
+    "spec": "Confirm film specifications with the studio",
+    "finish": "Discuss the intended appearance",
+    "durability": "Refer to the selected product’s written terms",
+    "highlights": [
+      "Original product packaging",
+      "Vehicle-specific coverage discussion",
+      "Product-specific maintenance guidance"
+    ],
+    "description": "The supplied NameX film presentation photograph. Product availability and the final installation plan are confirmed by the studio."
   }
 ];
 
@@ -156,7 +165,7 @@ export function NamexShowcase() {
               alt={activeProduct.alt}
               fill
               sizes="(max-width: 768px) 100vw, 55vw"
-              style={{ objectFit: "cover" }}
+              style={{ objectFit: "contain" }}
               priority
             />
           </div>
@@ -199,13 +208,13 @@ export function NamexShowcase() {
                 <span className="namex-spec-val">{activeProduct.finish}</span>
               </div>
               <div className="namex-spec-item">
-                <span className="namex-spec-label">DURABILITY RATING</span>
+                <span className="namex-spec-label">PACKAGE TERMS</span>
                 <span className="namex-spec-val">{activeProduct.durability}</span>
               </div>
             </div>
 
             <div className="namex-highlights">
-              <span className="namex-spec-label">KEY FORMULATION ATTRIBUTES</span>
+              <span className="namex-spec-label">DISCUSS WITH THE STUDIO</span>
               <ul>
                 {activeProduct.highlights.map((h, i) => (
                   <li key={i}>{h}</li>
@@ -236,7 +245,7 @@ export function NamexShowcase() {
             {/* Action Buttons */}
             <div className="namex-actions">
               <a
-                href={`https://wa.me/919877884149?text=${enquiryMessage}`}
+                href={`${whatsapp}?text=${enquiryMessage}`}
                 target="_blank"
                 rel="noreferrer"
                 className="namex-cta-btn"
@@ -268,21 +277,21 @@ export function NamexShowcase() {
           <span className="namex-step-num">01</span>
           <div>
             <strong>FIND YOUR FINISH</strong>
-            <p>Clear gloss reflection, stealth satin, or custom color transformation.</p>
+            <p>Compare physical finish samples and discuss suitable options.</p>
           </div>
         </div>
         <div className="namex-journey-step">
           <span className="namex-step-num">02</span>
           <div>
             <strong>KNOW YOUR PROTECTION</strong>
-            <p>Select between 8-mil TPU self-healing film and covalent molecular ceramics.</p>
+            <p>Compare the selected film or coating, coverage and written product terms.</p>
           </div>
         </div>
         <div className="namex-journey-step">
           <span className="namex-step-num">03</span>
           <div>
             <strong>CARE FOR THE RESULT</strong>
-            <p>Studio warranty backing, pH-neutral care protocols, and annual inspection.</p>
+            <p>Follow the product-specific care instructions and written maintenance schedule.</p>
           </div>
         </div>
       </div>

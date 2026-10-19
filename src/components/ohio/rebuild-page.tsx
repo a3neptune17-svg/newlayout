@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useSiteTheme } from "./use-site-theme";
 import Image from "next/image";
 import { clientConfig, ohioPage } from "./client-config";
 import { ClientFooter } from "./client-footer";
@@ -31,7 +31,7 @@ function SectionIntro({ label, title, href, action }: { label: string; title: Re
 }
 
 export function RebuildPage({ previewOne = false }: { previewOne?: boolean }) {
-  const [theme, setTheme] = useState<"light" | "dark">("dark");
+  const [theme, setTheme] = useSiteTheme();
 
   return (
     <div className={`ohio-rebuild${previewOne ? " or-preview-one" : ""}`} data-theme={theme} id="home">
@@ -56,7 +56,7 @@ export function RebuildPage({ previewOne = false }: { previewOne?: boolean }) {
               <p className="or-panel-eyebrow">PROTECTION</p>
               <h2 className="or-panel-heading">PAINT PROTECTION FILM</h2>
               <p className="or-product-line">{clientConfig.ppfProducts.join(" · ")}</p>
-              <strong className="or-panel-subline">INVISIBLE PROTECTION, MAXIMUM CONFIDENCE.</strong>
+              <strong className="or-panel-subline">INVISIBLE PROTECTION, MAXIMUM CONFIDENCE</strong>
               <span className="or-round" aria-hidden="true">
                 <ArrowUpRight className="or-arrow" />
               </span>
@@ -92,7 +92,7 @@ export function RebuildPage({ previewOne = false }: { previewOne?: boolean }) {
                   <Image className="client-namex-logo client-namex-logo-dark" src={clientConfig.namexLogoDark} alt="NameX" width={220} height={83} />
                   <Image className="client-namex-logo client-namex-logo-light" src={clientConfig.namexLogoLight} alt="NameX" width={220} height={83} />
                 </div>
-                <p className="or-intro-copy">Know what protects your car. A beautiful finish deserves thoughtful protection. Explore NameX at Mr. Detailer.</p>
+                <p className="or-intro-copy">INVISIBLE PROTECTION, MAXIMUM CONFIDENCE</p>
                 {clientConfig.namexUrl && <a className="or-pill" href={clientConfig.namexUrl} target="_blank" rel="noopener noreferrer">Explore NameX <ArrowRight className="or-arrow-inline"/></a>}
               </div>
             </div>

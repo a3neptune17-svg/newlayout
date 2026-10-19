@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useSiteTheme } from "./use-site-theme";
 import { RebuildNavigation } from "./rebuild-interactions";
 import { ThemeControl } from "./theme-control";
 import { ClientFooter } from "./client-footer";
@@ -12,20 +12,20 @@ import { ArrowLeft, ArrowRight, ArrowUpRight, WhatsAppMark } from "./icons";
 import type { DetailContent } from "./detail-content";
 
 // Specialized Inner Pages
-import { PackagesExperience } from "./inner-pages/packages-page";
-import { CoatingsExperience } from "./inner-pages/coatings-page";
-import { PlannerExperience } from "./inner-pages/planner-page";
-import { AutoModsExperience } from "./inner-pages/automods-page";
-import { TuningAndCustomisationExperience } from "./inner-pages/tuning-page";
-import { ShopExperience } from "./inner-pages/shop-page";
-import { AboutExperience } from "./inner-pages/about-page";
-import { WarrantyExperience } from "./inner-pages/warranty-page";
-import { FranchiseExperience } from "./inner-pages/franchise-page";
-import { JournalExperience } from "./inner-pages/journal-page";
+import { PackagesExperience } from "./inner-pages/audited-experiences";
+import { CoatingsExperience } from "./inner-pages/audited-experiences";
+import { PlannerExperience } from "./inner-pages/audited-experiences";
+import { AutoModsExperience } from "./inner-pages/audited-experiences";
+import { TuningAndCustomisationExperience } from "./inner-pages/audited-experiences";
+import { ShopExperience } from "./inner-pages/audited-experiences";
+import { AboutExperience } from "./inner-pages/audited-experiences";
+import { WarrantyExperience } from "./inner-pages/audited-experiences";
+import { FranchiseExperience } from "./inner-pages/audited-experiences";
+import { JournalExperience } from "./inner-pages/audited-experiences";
 import "./inner-pages/inner-pages.css";
 
 export function DetailPage({ content }: { content: DetailContent }) {
-  const [theme, setTheme] = useState<"dark" | "light">("dark");
+  const [theme, setTheme] = useSiteTheme();
 
   const isGallery = content.kind === "gallery";
   const isBooking = content.kind === "booking";
@@ -82,7 +82,7 @@ export function DetailPage({ content }: { content: DetailContent }) {
           {isAutoMods && <AutoModsExperience />}
 
           {/* 5. Auto Tuning & Customisation Build (with #autotuning anchor) */}
-          {isTuning && <TuningAndCustomisationExperience />}
+          {isTuning && <TuningAndCustomisationExperience tuningOnly={content.eyebrow === "AUTO TUNING"} />}
 
           {/* 6. Shop Care Shelf & NameX Showcase */}
           {isShop && <ShopExperience />}
@@ -201,7 +201,7 @@ export function DetailPage({ content }: { content: DetailContent }) {
                 <div className="client-aside-box">
                   <h4>THE STUDIO STANDARD</h4>
                   <p>
-                    Every treatment begins with a thorough inspection of your vehicle’s condition, paint thickness, and usage profile.
+                    Discuss your vehicle’s condition, priorities and suitable scope of work with the studio before treatment.
                   </p>
                   <a className="or-pill" href={ohioPage("booking")}>
                     BOOK A STUDIO INSPECTION <ArrowRight className="or-arrow-inline" />
@@ -211,7 +211,7 @@ export function DetailPage({ content }: { content: DetailContent }) {
                 <div className="client-aside-box">
                   <h4>WHATSAPP CONSULTATION</h4>
                   <p>
-                    Drop us a message with photos or details of your car for immediate guidance from the detailing team.
+                    Share photos or details of your car so the team can review your enquiry.
                   </p>
                   <a className="or-pill" href={whatsapp} target="_blank" rel="noopener noreferrer">
                     <WhatsAppMark /> DROP US A LINE <ArrowUpRight className="or-arrow-inline" />

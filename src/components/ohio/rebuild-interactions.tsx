@@ -65,6 +65,22 @@ export const navigation: NavItem[] = [
       [
         "Car Care Packages",
         "/ohio-preview/explore/car-care"
+      ],
+      [
+        "Packages Journey",
+        "/ohio-preview/explore/packages-journey"
+      ],
+      [
+        "Detailing Menu",
+        "/ohio-preview/explore/detailing-menu"
+      ],
+      [
+        "Auto Tuning",
+        "/ohio-preview/explore/autotuning"
+      ],
+      [
+        "Customisation Build",
+        "/ohio-preview/explore/customisation-build#autotuning"
       ]
     ]
   },
@@ -595,7 +611,7 @@ export function RebuildNavigation() {
                       className="or-popup-hover-badge"
                       aria-label={`Expand ${item.label}`}
                       aria-expanded={hoveredMenuRow === item.label}
-                      onClick={() => setHoveredMenuRow((curr) => (curr === item.label ? null : item.label))}
+                      onClick={() => setHoveredMenuRow(item.label)}
                     >
                       +
                     </button>

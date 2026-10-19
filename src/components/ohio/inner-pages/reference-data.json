@@ -1,0 +1,1621 @@
+{
+  "about-ohio": {
+    "history": [
+      [
+        "2015",
+        "THE BEGINNING",
+        "Professional car-care and value-added services at OEM dealerships marked the beginning of our journey."
+      ],
+      [
+        "2020",
+        "THE FIRST STUDIO",
+        "Our dealership experience became a dedicated Mr. Detailer studio in Jammu."
+      ],
+      [
+        "2021",
+        "ADVANCED PROTECTION",
+        "We expanded into Paint Protection Film and advanced surface-protection solutions."
+      ],
+      [
+        "2022",
+        "A SECOND STUDIO",
+        "A second studio brought together broader capabilities and a growing community of customers."
+      ],
+      [
+        "Today",
+        "DRIVEN BY YOU",
+        "We continue to grow through customer trust, partnerships and an ambition to build a trusted network of detailing studios."
+      ]
+    ],
+    "faqs": []
+  },
+  "automods": {
+    "repairs": [
+      [
+        "Dent repair",
+        "Careful assessment of dents and damaged bodywork.",
+        "Restore the contour of your vehicle with a repair method suited to the panel and damage.",
+        [
+          "Minor and major dent assessment",
+          "Paintless dent repair where the damage and paint condition allow",
+          "Panel repair and preparation where repainting is needed"
+        ],
+        "Repair suitability is confirmed after inspection."
+      ],
+      [
+        "Panel replacement",
+        "Replacement when repairing a panel is unsuitable.",
+        "For damage that needs a replacement panel, we assess the affected area and discuss compatible parts.",
+        [
+          "Damaged-panel assessment",
+          "Replacement-panel selection and fitment",
+          "Preparation and finishing of the repaired area"
+        ],
+        "Parts and availability are confirmed for your vehicle."
+      ],
+      [
+        "Premium painting",
+        "Refresh a panel or reimagine your car’s colour.",
+        "Preparation, paint application and finishing are planned around the condition of your vehicle and the result you want.",
+        [
+          "Surface preparation",
+          "Panel painting or a wider paint refresh",
+          "Finish inspection and care guidance"
+        ],
+        "Colour, finish and scope are agreed before work begins."
+      ],
+      [
+        "Colour matching",
+        "A considered match for a consistent finish.",
+        "Colour matching supports a seamless repair by assessing the existing paint and the surrounding panels.",
+        [
+          "Existing colour and finish assessment",
+          "Paint selection and matching",
+          "Blending where required"
+        ],
+        "Existing paint condition can affect the final matching approach."
+      ],
+      [
+        "Protective coating",
+        "Complete the repair with surface protection.",
+        "Explore suitable protection for the newly finished surface.",
+        [
+          "Coating options suited to the finish",
+          "Application after the required paint curing period",
+          "Aftercare guidance"
+        ],
+        "Protection is selected according to the paint system and curing requirements."
+      ]
+    ],
+    "mods": [
+      [
+        "Exterior modifications",
+        "Shape your car’s exterior around your preferred style.",
+        [
+          "Body kits, spoilers and diffusers",
+          "Grilles and side skirts",
+          "Wraps and custom paint"
+        ],
+        "Fitment and the final finish depend on your vehicle and selected parts."
+      ],
+      [
+        "Interior upgrades",
+        "Refine the comfort and character of your cabin.",
+        [
+          "Premium seat covers",
+          "Ambient lighting and steering upgrades",
+          "Dashboard trims and flooring"
+        ],
+        "Materials, compatibility and installation scope are agreed after inspection."
+      ],
+      [
+        "Performance upgrades",
+        "Explore hardware and calibration options for your driving goals.",
+        [
+          "Exhaust systems and suspension upgrades",
+          "Cold air intakes",
+          "ECU tuning"
+        ],
+        "For detailed performance services, also explore our Auto Tuning page."
+      ],
+      [
+        "Audio & lighting",
+        "Choose the sound and lighting experience you want.",
+        [
+          "High-end sound systems",
+          "LED headlights, taillights and DRLs",
+          "Ambient lighting"
+        ],
+        "System compatibility and installation requirements are checked for your vehicle."
+      ],
+      [
+        "Protection & finishing",
+        "Bring your completed build together with the right finish.",
+        [
+          "Paint protection film and ceramic coating",
+          "Underbody coating",
+          "Window film and detailing"
+        ],
+        "The studio recommends suitable products and installation options for your requirements."
+      ]
+    ],
+    "positions": [
+      [
+        37,
+        53
+      ],
+      [
+        27,
+        81
+      ],
+      [
+        83,
+        20
+      ],
+      [
+        11,
+        39
+      ],
+      [
+        88,
+        53
+      ],
+      [
+        59,
+        64
+      ]
+    ],
+    "faqs": []
+  },
+  "autotuning": {
+    "services": {
+      "performance": {
+        "name": "Performance upgrades"
+      },
+      "ecu": {
+        "name": "ECU calibration"
+      },
+      "exhaust": {
+        "name": "Exhaust systems"
+      },
+      "suspension": {
+        "name": "Suspension & brakes"
+      }
+    },
+    "systems": {
+      "performance": {
+        "title": "ENGINE & HARDWARE",
+        "hero": "BUILD THE<br>FOUNDATION.",
+        "desc": "Coordinate supporting hardware around the vehicle, current modifications and your driving priorities.",
+        "chips": [
+          "INTAKE",
+          "COOLING",
+          "SUPPORTING SYSTEMS"
+        ],
+        "scope": [
+          [
+            "A coordinated plan",
+            "Discuss the supporting changes alongside your current engine condition."
+          ],
+          [
+            "Component suitability",
+            "Check the fitment and compatibility of each proposed part."
+          ]
+        ],
+        "options": [
+          [
+            "Air intake",
+            "Explore compatible intake configurations and installation requirements."
+          ],
+          [
+            "Turbo & intercooler",
+            "Discuss boost and cooling changes within an agreed vehicle plan."
+          ],
+          [
+            "Performance analysis",
+            "Confirm testing availability and reporting scope during consultation."
+          ]
+        ],
+        "process": [
+          "Inspect the vehicle",
+          "Review current hardware",
+          "Define the proposed components",
+          "Agree testing and checks"
+        ],
+        "note": "Product availability and performance objectives are confirmed after assessment."
+      },
+      "ecu": {
+        "title": "ECU CALIBRATION",
+        "hero": "REFINE THE<br>RESPONSE.",
+        "desc": "Explore calibration around the engine, supporting hardware and the way you use your car.",
+        "chips": [
+          "CALIBRATION",
+          "DRIVEABILITY",
+          "VALIDATION"
+        ],
+        "scope": [
+          [
+            "Driving response",
+            "Define your preferred response and intended use."
+          ],
+          [
+            "Vehicle condition",
+            "Review the engine and existing modifications before developing the map."
+          ]
+        ],
+        "options": [
+          [
+            "ECU data reading",
+            "Read the existing data with compatible tools."
+          ],
+          [
+            "Map development",
+            "Agree a calibration scope suited to the vehicle and objectives."
+          ],
+          [
+            "Validation",
+            "Discuss response checks, testing and restoration options."
+          ]
+        ],
+        "process": [
+          "Assess condition",
+          "Read original ECU data",
+          "Develop the agreed calibration",
+          "Apply the map",
+          "Test and review"
+        ],
+        "note": "Outcomes and manufacturer warranty implications depend on the vehicle and selected changes."
+      },
+      "exhaust": {
+        "title": "EXHAUST SYSTEMS",
+        "hero": "FIND YOUR<br>SOUND.",
+        "desc": "Consider exhaust character, cabin comfort and vehicle fitment as one system.",
+        "chips": [
+          "TONE",
+          "FITMENT",
+          "CONSTRUCTION"
+        ],
+        "scope": [
+          [
+            "Sound preference",
+            "Describe the tone and cabin comfort you want."
+          ],
+          [
+            "System compatibility",
+            "Review the overall configuration and intended vehicle use."
+          ]
+        ],
+        "options": [
+          [
+            "Cat-back & axle-back",
+            "Explore full rear-section or shorter rear-section configurations."
+          ],
+          [
+            "Mufflers, headers & downpipes",
+            "Assess fitment, emissions-equipment compatibility and applicable use requirements."
+          ],
+          [
+            "Material & construction",
+            "Confirm selected product details, mounting and warranty terms."
+          ]
+        ],
+        "process": [
+          "Inspect the vehicle",
+          "Select a suitable configuration",
+          "Install the agreed system",
+          "Check for leaks",
+          "Complete final inspection"
+        ],
+        "note": "Construction and warranty depend on the selected product. No fixed result is assumed before assessment."
+      },
+      "suspension": {
+        "title": "SUSPENSION & BRAKES",
+        "hero": "CONTROL THE<br>DRIVE.",
+        "desc": "Begin with chassis and brake condition, then agree service or compatible replacements.",
+        "chips": [
+          "RIDE",
+          "ALIGNMENT",
+          "BRAKING"
+        ],
+        "scope": [
+          [
+            "Ride & handling",
+            "Assess suspension condition and driving priorities."
+          ],
+          [
+            "Braking systems",
+            "Inspect component condition before agreeing required work."
+          ]
+        ],
+        "options": [
+          [
+            "Suspension components",
+            "Shocks, struts, springs, bushes, mounts, ball joints and control arms."
+          ],
+          [
+            "Alignment & balancing",
+            "Review wheel alignment and balancing requirements."
+          ],
+          [
+            "Brake servicing",
+            "Pads, discs, calipers, fluid, ABS checks and parking brake service."
+          ]
+        ],
+        "process": [
+          "Inspect the systems",
+          "Diagnose the condition",
+          "Agree parts and scope",
+          "Complete service work",
+          "Test and quality-check"
+        ],
+        "note": "Inspection determines the work required. Part suitability is confirmed for the vehicle."
+      }
+    },
+    "faqs": [
+      {
+        "q": "Where should I begin if I am unsure what to choose?",
+        "a": "Tell the studio what you would like to feel differently when driving. Your vehicle and priorities can guide the assessment without choosing parts in advance."
+      },
+      {
+        "q": "Can you assess more than one service together?",
+        "a": "Yes. Select the services you are considering in the enquiry form, and describe any existing modifications."
+      },
+      {
+        "q": "Will a modification affect my manufacturer warranty?",
+        "a": "Implications depend on the vehicle and proposed work. Discuss the applicable terms before proceeding."
+      },
+      {
+        "q": "Is the preferred date a confirmed appointment?",
+        "a": "No. The enquiry opens in WhatsApp or email for you to send. The studio will confirm availability and the next steps."
+      }
+    ]
+  },
+  "car-care-planner": {
+    "packages": [
+      {
+        "name": "Interior & Exterior",
+        "sub": "Complete care. Inside and out.",
+        "desc": "A refresh for daily drivers, family cars and weekend vehicles. Bring exterior cleaning and everyday cabin care together in one visit.",
+        "items": [
+          "Exterior foam wash",
+          "Interior vacuuming",
+          "Dashboard & plastics care",
+          "Tyre & alloy cleaning",
+          "Glass cleaning",
+          "Door & trim cleaning",
+          "Seat & upholstery care",
+          "Air vent & console detailing",
+          "Exterior drying & wipe down",
+          "Rubber & plastic dressing",
+          "Fragrance finish",
+          "Quality check & final touch"
+        ]
+      },
+      {
+        "name": "Steam Wash",
+        "sub": "Refresh your car’s feel and finish.",
+        "desc": "Explore a steam-wash package for regular maintenance and city driving. Surface suitability and the engine-bay approach are checked before treatment.",
+        "items": [
+          "Exterior steam wash",
+          "Underbody wash",
+          "Tyre & wheel cleaning",
+          "Engine bay steam touch",
+          "Glass & dashboard cleaning",
+          "Interior vacuuming",
+          "Door & trim cleaning",
+          "Seat & upholstery care",
+          "Air vent & console detailing",
+          "Exterior drying & wipe down",
+          "Clay bar treatment"
+        ]
+      },
+      {
+        "name": "Paint Enhancement",
+        "sub": "Bring depth and gloss back into focus.",
+        "desc": "A one-step polish enhancement for customers seeking a more refined, glossy finish. Suitable work and achievable results depend on paint condition.",
+        "items": [
+          "Exterior foam wash",
+          "Clay bar treatment",
+          "Polish enhancement — 1 step",
+          "Paint surface gloss boost",
+          "Tyre & alloy cleaning",
+          "Glass cleaning",
+          "Interior vacuuming",
+          "Dashboard & plastics care",
+          "Exterior sealant protection",
+          "Interior fragrance"
+        ]
+      },
+      {
+        "name": "Paint Correction",
+        "sub": "Refine imperfections. Restore clarity.",
+        "desc": "A two-step correction package for paint with swirls, light scratches or a dull appearance. We assess the paint before discussing which defects can safely be improved; not every mark can be removed.",
+        "items": [
+          "Exterior foam wash",
+          "Iron & tar decontamination",
+          "Clay bar treatment",
+          "Paint correction — 2 step",
+          "High-gloss polishing",
+          "Tyre & alloy detailing",
+          "Glass & mirror cleaning",
+          "Interior vacuuming",
+          "Dashboard & plastics care",
+          "Door & trim cleaning",
+          "Interior fragrance",
+          "Exterior sealant protection"
+        ]
+      },
+      {
+        "name": "Interior Care",
+        "sub": "Give the cabin a closer clean.",
+        "desc": "Deeper interior care for daily drivers, family cars and pet owners. Cleaning is matched to the materials and condition; stain and odour outcomes are assessed individually.",
+        "items": [
+          "Interior vacuuming — seats, carpets & boot",
+          "Seat & upholstery cleaning",
+          "Dashboard & console cleaning",
+          "Door & trim cleaning",
+          "Air vent & AC duct cleaning",
+          "Interior glass & mirror cleaning",
+          "Odour treatment",
+          "Interior dressing"
+        ]
+      }
+    ],
+    "ideal": [
+      "Daily drivers, family cars and regular maintenance.",
+      "City driving and customers seeking a steam-wash refresh.",
+      "Newer cars and owners who prefer a high-gloss appearance.",
+      "Paint with swirls or light scratches, and pre-sale preparation.",
+      "Daily drivers, family cars, pet owners and a cabin refresh."
+    ],
+    "washes": [
+      "#e1ebfa",
+      "#e1efeb",
+      "#f7ead7",
+      "#e9e4f4",
+      "#f5e6e9"
+    ],
+    "faqs": [
+      {
+        "q": "What happens during an assessment?",
+        "a": "We review the vehicle’s condition, discuss your priorities and confirm suitable work, realistic outcomes and expected timing."
+      },
+      {
+        "q": "Will every scratch or stain disappear?",
+        "a": "No. Depth, material and surface condition determine what can safely be improved. Existing damage is assessed before treatment."
+      },
+      {
+        "q": "Can I add PPF or coatings?",
+        "a": "Yes, discuss them separately. PPF and coatings are not included in these detailing packages unless expressly agreed."
+      },
+      {
+        "q": "What about heavily soiled interiors?",
+        "a": "Tell the studio about stains, pet hair or other concerns before the visit. Extra work and timing are confirmed after assessment."
+      },
+      {
+        "q": "Which vehicles can I enquire for?",
+        "a": "The catalogue lists hatchbacks, sedans, SUVs, luxury and exotic cars, with bike options for selected packages. Confirm the scope for your vehicle."
+      }
+    ]
+  },
+  "coatings-gallery": {
+    "packages": [
+      {
+        "id": "nano",
+        "family": "ceramic",
+        "name": "NANO Guard",
+        "years": 1,
+        "description": "A single-layer ceramic coating for added gloss and everyday environmental protection.",
+        "benefits": [
+          "Gloss enhancement",
+          "Everyday surface protection",
+          "Single-layer application"
+        ],
+        "included": [
+          "Surface preparation",
+          "Paint correction",
+          "Precision polishing",
+          "Ceramic coating application",
+          "Interior detailing"
+        ],
+        "layers": "Single layer"
+      },
+      {
+        "id": "vector",
+        "family": "ceramic",
+        "name": "Ceramic Vector",
+        "years": 2,
+        "description": "A dual-layer ceramic coating for gloss, water repellency and dependable everyday protection.",
+        "benefits": [
+          "Enhanced gloss",
+          "Improved water repellency",
+          "Dual-layer application"
+        ],
+        "included": [
+          "Surface preparation",
+          "Paint correction",
+          "Precision polishing",
+          "Ceramic coating application",
+          "Interior detailing",
+          "Alloy coating",
+          "Windshield Armour"
+        ],
+        "layers": "Dual layer"
+      },
+      {
+        "id": "hydro",
+        "family": "ceramic",
+        "name": "Hydro Core",
+        "years": 3,
+        "description": "An advanced ceramic system for lasting gloss, durability and resistance to environmental wear.",
+        "benefits": [
+          "Long-lasting gloss",
+          "Enhanced durability",
+          "Protection against environmental wear"
+        ],
+        "included": [
+          "Surface preparation",
+          "Advanced paint correction",
+          "Precision polishing",
+          "Ceramic coating application",
+          "Interior detailing",
+          "Alloy coating",
+          "Plastic coating",
+          "Windshield Armour"
+        ],
+        "layers": null
+      },
+      {
+        "id": "matrix",
+        "family": "ceramic",
+        "name": "Ceramic Matrix",
+        "years": 5,
+        "description": "A premium multi-layer ceramic coating for deep gloss and long-term surface protection.",
+        "benefits": [
+          "Deep gloss finish",
+          "Multi-layer coating system",
+          "Long-term protection"
+        ],
+        "included": [
+          "Surface preparation",
+          "Paint correction",
+          "Precision polishing",
+          "Ceramic coating application",
+          "Interior detailing",
+          "Alloy coating",
+          "Plastic coating",
+          "Windshield Armour"
+        ],
+        "layers": "Multi-layer"
+      },
+      {
+        "id": "armour",
+        "family": "graphene",
+        "name": "Carbon Armour",
+        "years": 1,
+        "description": "A graphene coating for enhanced gloss, slickness and protection in everyday driving.",
+        "benefits": [
+          "Enhanced gloss",
+          "Slick surface finish",
+          "Everyday protection"
+        ],
+        "included": [
+          "Surface preparation",
+          "Paint correction",
+          "Precision polishing",
+          "Graphene coating application",
+          "Interior detailing"
+        ],
+        "layers": null
+      },
+      {
+        "id": "tech",
+        "family": "graphene",
+        "name": "Carbon Tech",
+        "years": 3,
+        "description": "A graphene coating focused on durability, gloss depth and water beading.",
+        "benefits": [
+          "Gloss and depth",
+          "Enhanced slickness",
+          "Water beading"
+        ],
+        "included": [
+          "Surface preparation",
+          "Paint correction",
+          "Precision polishing",
+          "Graphene coating application",
+          "Interior detailing",
+          "Alloy coating",
+          "Plastic coating",
+          "Windshield coating"
+        ],
+        "layers": null
+      },
+      {
+        "id": "carbon-matrix",
+        "family": "graphene",
+        "name": "Carbon Matrix X5",
+        "years": 5,
+        "description": "A long-term graphene package for durability, slickness and a high-gloss finish.",
+        "benefits": [
+          "Long-term durability",
+          "High-gloss protection",
+          "Enhanced slickness"
+        ],
+        "included": [
+          "Surface preparation",
+          "Paint correction",
+          "Precision polishing",
+          "Graphene coating application",
+          "Interior detailing",
+          "Alloy coating",
+          "Plastic coating",
+          "Windshield coating"
+        ],
+        "layers": null
+      },
+      {
+        "id": "prime",
+        "family": "borophene",
+        "name": "Borophene Prime",
+        "years": 3,
+        "description": "A borophene coating package designed for deep gloss, durability and surface protection.",
+        "benefits": [
+          "Deep gloss",
+          "Durability-focused protection",
+          "Premium finish"
+        ],
+        "included": [
+          "Surface preparation",
+          "Paint correction",
+          "Precision polishing",
+          "Borophene coating application",
+          "Interior detailing",
+          "Alloy coating",
+          "Plastic coating",
+          "Windshield coating"
+        ],
+        "layers": null
+      },
+      {
+        "id": "shield",
+        "family": "borophene",
+        "name": "Hydro Shield X5",
+        "years": 5,
+        "description": "A borophene package focused on hydrophobic performance, durability and mirror-like brilliance.",
+        "benefits": [
+          "Hydrophobic performance",
+          "Mirror-like finish",
+          "Long-term durability"
+        ],
+        "included": [
+          "Surface preparation",
+          "Paint correction",
+          "Precision polishing",
+          "Borophene coating application",
+          "Interior detailing",
+          "Alloy coating",
+          "Plastic coating",
+          "Windshield coating",
+          "Leather coating"
+        ],
+        "layers": null
+      }
+    ],
+    "families": {
+      "ceramic": {
+        "label": "Ceramic",
+        "description": "Gloss and surface protection, with four packages from 1 to 5 years.",
+        "image": "ceramic.png",
+        "chemistry": "Silicon carbide",
+        "note": "The catalogue identifies silicon carbide for NANO Guard, Ceramic Vector and Hydro Core. Ceramic Matrix is described as a multi-layer system.",
+        "color": "#007765"
+      },
+      "graphene": {
+        "label": "Graphene",
+        "description": "Gloss, slickness and durability, with three packages from 1 to 5 years.",
+        "image": "graphene.png",
+        "chemistry": "Graphene oxide + silicon dioxide matrix",
+        "note": "The catalogue describes a graphene oxide and silicon dioxide matrix for the Graphene collection.",
+        "color": "#263d52"
+      },
+      "borophene": {
+        "label": "Borophene",
+        "description": "Deep gloss and durability, with 3 and 5-year package options.",
+        "image": "borophene.png",
+        "chemistry": "Borophene + silicon dioxide matrix",
+        "note": "The catalogue describes borophene combined with a matrix and silicon dioxide.",
+        "color": "#285dc1"
+      }
+    },
+    "selected": {
+      "ceramic": "nano",
+      "graphene": "armour",
+      "borophene": "prime"
+    },
+    "faqs": [
+      {
+        "q": "How do I choose between Ceramic, Graphene and Borophene?",
+        "a": "Compare each package’s stated benefits, protection period, inclusions. Ask the studio to recommend a suitable product for your vehicle condition and care preferences."
+      },
+      {
+        "q": "Does every package include the same treatments?",
+        "a": "All listed packages include preparation, paint correction, polishing, coating application and interior detailing. Alloy, plastic, windshield and leather treatments vary by package. Check the selected package’s inclusion list."
+      },
+      {
+        "q": "What do the 1, 2, 3 and 5-year labels mean?",
+        "a": "These are the protection periods shown in the catalogue. Applicable warranty coverage depends on the selected product, its terms and the required maintenance schedule."
+      },
+      {
+        "q": "How do I know which package suits my vehicle?",
+        "a": "Share your vehicle make, model, year and paint condition with the studio. We can discuss the coating options, required preparation and suitable treatments."
+      }
+    ]
+  },
+  "customisation-build": {
+    "categories": [
+      {
+        "name": "Exterior",
+        "items": [
+          [
+            "Body kits & accents",
+            "Explore suitable spoilers, diffusers, grilles and side skirts."
+          ],
+          [
+            "Wraps & colour",
+            "Discuss colour-change wraps, custom paint and finish options."
+          ]
+        ]
+      },
+      {
+        "name": "Interior",
+        "items": [
+          [
+            "Seats & cabin finishes",
+            "Explore seat covers, flooring and material options."
+          ],
+          [
+            "Steering & trim",
+            "Discuss suitable steering upgrades and dashboard trims."
+          ]
+        ]
+      },
+      {
+        "name": "Audio & lighting",
+        "items": [
+          [
+            "Sound systems",
+            "Explore a listening experience around your vehicle and preferences."
+          ],
+          [
+            "Lighting details",
+            "Discuss compatible cabin lighting, headlights, taillights and DRLs."
+          ]
+        ]
+      },
+      {
+        "name": "Auto Tuning",
+        "items": [
+          [
+            "ECU remapping",
+            "Discuss vehicle-specific calibration options and suitability."
+          ],
+          [
+            "Exhaust systems",
+            "Explore fitment, sound preferences and applicable limits."
+          ],
+          [
+            "Suspension upgrades",
+            "Discuss handling goals, ride comfort and component compatibility."
+          ],
+          [
+            "Brake upgrades",
+            "Review braking needs and suitable components with the technical team."
+          ]
+        ]
+      }
+    ],
+    "vibes": [
+      [
+        "Quiet confidence.",
+        "Coordinated accents. Restrained contrast. A considered finish.",
+        [
+          "#41464b",
+          "#a3a89c",
+          "#e1dfd5"
+        ],
+        "#d9cde9"
+      ],
+      [
+        "A sharper presence.",
+        "Directional accents. Purposeful details. A sport-inspired mood.",
+        [
+          "#222a33",
+          "#a54236",
+          "#9cabb9"
+        ],
+        "#d2dee9"
+      ],
+      [
+        "Make it personal.",
+        "Expressive colours. Individual details. A look that feels like yours.",
+        [
+          "#9470ba",
+          "#df9c5e",
+          "#d3d5b2"
+        ],
+        "#ead6d0"
+      ]
+    ],
+    "tuning": [
+      {
+        "name": "ECU Remapping",
+        "title": "Start with the way you drive.",
+        "desc": "Discuss vehicle-specific calibration options around your intended use. The team reviews the vehicle and explains whether a suitable approach is available.",
+        "checks": [
+          "Vehicle model, engine and existing modifications",
+          "Diagnostic condition and service history",
+          "Calibration scope, validation and relevant requirements"
+        ]
+      },
+      {
+        "name": "Exhaust Systems",
+        "title": "Find a suitable sound and fit.",
+        "desc": "Explore exhaust options around your vehicle, sound preferences and intended use. Review fitment and applicable limits before selecting components.",
+        "checks": [
+          "System compatibility and installation scope",
+          "Noise and emissions requirements",
+          "Clearance, fitment and post-installation checks"
+        ]
+      },
+      {
+        "name": "Suspension",
+        "title": "Balance response with comfort.",
+        "desc": "Discuss the ride and handling characteristics you want to change. Suitable components depend on the vehicle, load and everyday driving conditions.",
+        "checks": [
+          "Current suspension condition and ride height",
+          "Wheel, tyre and component compatibility",
+          "Alignment and appropriate checks after installation"
+        ]
+      },
+      {
+        "name": "Brakes",
+        "title": "Plan the stopping side, too.",
+        "desc": "Review your braking needs with the technical team. Component selection begins with the existing system and your driving requirements.",
+        "checks": [
+          "Existing brake condition and intended use",
+          "Compatible pads, discs and other selected components",
+          "Installation, checks and product-specific care instructions"
+        ]
+      }
+    ],
+    "names": [
+      "ECU remapping",
+      "Exhaust systems",
+      "Suspension upgrades",
+      "Brake upgrades"
+    ],
+    "faqs": [
+      {
+        "q": "Can I customise only a few details?",
+        "a": "Yes. Start with selected accents or components and discuss their suitability with the studio."
+      },
+      {
+        "q": "Will the moodboard show my finished car?",
+        "a": "No. It expresses a style direction only. The vehicle image is unchanged. Actual design, fitment and finish are agreed separately."
+      },
+      {
+        "q": "Will modifications affect warranty or compliance?",
+        "a": "Some changes may affect vehicle warranty, insurance, registration or permitted use. Ask the studio to review the proposed changes and confirm relevant requirements before work."
+      },
+      {
+        "q": "Can every listed option fit my vehicle?",
+        "a": "No. Availability, compatibility and installation depend on the exact model, variant, condition and selected components."
+      },
+      {
+        "q": "Can I keep the look close to the original?",
+        "a": "Yes. Share the details you want to retain and discuss subtle, coordinated changes instead of a complete transformation."
+      }
+    ]
+  },
+  "detail-journal": {
+    "posts": [
+      {
+        "title": "PPF or coating? Start with your priorities.",
+        "cat": "Product Guides",
+        "image": "home-coating.jpg",
+        "desc": "Understand their different roles before choosing protection.",
+        "sections": [
+          [
+            "Two different approaches",
+            "PPF adds a physical film over suitable surfaces. A coating is a surface treatment. Neither choice should be made on a product name alone."
+          ],
+          [
+            "Start with your concern",
+            "Tell the studio whether your priority is exposed paintwork, appearance, cleaning or a particular finish. Discuss how you drive, park and wash the vehicle."
+          ],
+          [
+            "Ask for the details",
+            "Compare the selected product’s specifications, preparation requirements, coverage and written warranty. Coatings do not replace film’s physical barrier, and neither makes a vehicle damage-proof."
+          ]
+        ]
+      },
+      {
+        "title": "Your first wash after protection.",
+        "cat": "Detailing Tips",
+        "image": "home-ppf.jpg",
+        "desc": "Timing, tools and the instructions that matter most.",
+        "sections": [
+          [
+            "Follow your handover instructions",
+            "Mr. Detailer’s usual first-wash guidance is 5–6 days. Confirm the waiting period for your particular film or coating; the selected product’s instructions take priority."
+          ],
+          [
+            "Keep the method gentle",
+            "Use clean microfibre cloths, suitable shampoo and the washing method recommended by the studio. Ask before using unfamiliar chemicals or accessories."
+          ],
+          [
+            "Keep up with care",
+            "A new finish still needs maintenance. Keep your care instructions and service records together, and ask about the required schedule."
+          ]
+        ]
+      },
+      {
+        "title": "Gloss, matte or colour: find your PPF finish.",
+        "cat": "Product Guides",
+        "image": "home-sedan.jpg",
+        "desc": "A starting point for comparing looks and real samples.",
+        "sections": [
+          [
+            "Choose your appearance",
+            "Clear gloss keeps the original colour visible with a gloss appearance. Clear matte offers a less reflective look. Black and colour films can create a different visual direction."
+          ],
+          [
+            "See a physical sample",
+            "Screens and lighting affect appearance. Compare a real sample with your paint and discuss the areas you want covered."
+          ],
+          [
+            "Look beyond the finish",
+            "Ask about the individual film’s specifications, care requirements and warranty. A finish name alone does not explain its protection performance."
+          ]
+        ]
+      },
+      {
+        "title": "Paint enhancement or paint correction?",
+        "cat": "Product Guides",
+        "image": "home-project.jpg",
+        "desc": "How the catalogue’s one-step and two-step packages differ.",
+        "sections": [
+          [
+            "Enhancement focuses on the finish",
+            "The Paint Enhancement package lists a one-step polish, a gloss boost and exterior sealant protection, alongside cleaning and care services."
+          ],
+          [
+            "Correction starts with assessment",
+            "The Paint Correction package lists two-step correction for paint with suitable swirls or light defects. The team must assess what can safely be improved."
+          ],
+          [
+            "Set realistic expectations",
+            "Deep scratches or damaged paint may need a different approach. Review the scope and expected result before work begins."
+          ]
+        ]
+      },
+      {
+        "title": "A cleaner cabin starts with the right questions.",
+        "cat": "Detailing Tips",
+        "image": "interior.png",
+        "desc": "Tell the studio what your interior needs before treatment.",
+        "sections": [
+          [
+            "Describe the concern",
+            "Mention stains, pet hair, odours and heavily used areas. Share photos if they help explain what you see."
+          ],
+          [
+            "Match care to the material",
+            "Fabric, leather and decorative trims may require different cleaning methods. Tell the team about any existing damage, treatments or sensitive areas."
+          ],
+          [
+            "Confirm the scope",
+            "The Interior Care package includes vacuuming, upholstery, dashboard, trims, vents, glass, odour treatment and dressing. Outcomes depend on condition; not every stain or odour can be eliminated."
+          ]
+        ]
+      },
+      {
+        "title": "From the studio: a space for what’s next.",
+        "cat": "Latest Updates",
+        "preview": true,
+        "desc": "Preview how verified news and studio stories will appear.",
+        "sections": [
+          [
+            "Editorial preview — no announcement",
+            "This sample shows the format for future studio updates. It does not announce a new location, product or event."
+          ],
+          [
+            "What belongs here",
+            "Publish confirmed openings, team training, new products and project stories with dates, locations and original photographs."
+          ],
+          [
+            "Give readers a useful next step",
+            "Explain what changed, why customers may care and how to learn more. Replace this preview with verified news when available."
+          ]
+        ]
+      }
+    ],
+    "categories": [
+      "All Articles",
+      "Detailing Tips",
+      "Product Guides",
+      "Latest Updates"
+    ],
+    "faqs": []
+  },
+  "detailing-menu": {
+    "packages": [
+      {
+        "name": "Interior & Exterior",
+        "sub": "Complete care. Inside and out.",
+        "desc": "A refresh for daily drivers, family cars and weekend vehicles. Bring exterior cleaning and everyday cabin care together in one visit.",
+        "items": [
+          "Exterior foam wash",
+          "Interior vacuuming",
+          "Dashboard & plastics care",
+          "Tyre & alloy cleaning",
+          "Glass cleaning",
+          "Door & trim cleaning",
+          "Seat & upholstery care",
+          "Air vent & console detailing",
+          "Exterior drying & wipe down",
+          "Rubber & plastic dressing",
+          "Fragrance finish",
+          "Quality check & final touch"
+        ]
+      },
+      {
+        "name": "Steam Wash",
+        "sub": "Refresh your car’s feel and finish.",
+        "desc": "Explore a steam-wash package for regular maintenance and city driving. Surface suitability and the engine-bay approach are checked before treatment.",
+        "items": [
+          "Exterior steam wash",
+          "Underbody wash",
+          "Tyre & wheel cleaning",
+          "Engine bay steam touch",
+          "Glass & dashboard cleaning",
+          "Interior vacuuming",
+          "Door & trim cleaning",
+          "Seat & upholstery care",
+          "Air vent & console detailing",
+          "Exterior drying & wipe down",
+          "Clay bar treatment"
+        ]
+      },
+      {
+        "name": "Paint Enhancement",
+        "sub": "Bring depth and gloss back into focus.",
+        "desc": "A one-step polish enhancement for customers seeking a more refined, glossy finish. Suitable work and achievable results depend on paint condition.",
+        "items": [
+          "Exterior foam wash",
+          "Clay bar treatment",
+          "Polish enhancement — 1 step",
+          "Paint surface gloss boost",
+          "Tyre & alloy cleaning",
+          "Glass cleaning",
+          "Interior vacuuming",
+          "Dashboard & plastics care",
+          "Exterior sealant protection",
+          "Interior fragrance"
+        ]
+      },
+      {
+        "name": "Paint Correction",
+        "sub": "Refine imperfections. Restore clarity.",
+        "desc": "A two-step correction package for paint with swirls, light scratches or a dull appearance. We assess the paint before discussing which defects can safely be improved; not every mark can be removed.",
+        "items": [
+          "Exterior foam wash",
+          "Iron & tar decontamination",
+          "Clay bar treatment",
+          "Paint correction — 2 step",
+          "High-gloss polishing",
+          "Tyre & alloy detailing",
+          "Glass & mirror cleaning",
+          "Interior vacuuming",
+          "Dashboard & plastics care",
+          "Door & trim cleaning",
+          "Interior fragrance",
+          "Exterior sealant protection"
+        ]
+      },
+      {
+        "name": "Interior Care",
+        "sub": "Give the cabin a closer clean.",
+        "desc": "Deeper interior care for daily drivers, family cars and pet owners. Cleaning is matched to the materials and condition; stain and odour outcomes are assessed individually.",
+        "items": [
+          "Interior vacuuming — seats, carpets & boot",
+          "Seat & upholstery cleaning",
+          "Dashboard & console cleaning",
+          "Door & trim cleaning",
+          "Air vent & AC duct cleaning",
+          "Interior glass & mirror cleaning",
+          "Odour treatment",
+          "Interior dressing"
+        ]
+      }
+    ],
+    "extras": [
+      [
+        "Cabin surfaces",
+        "Compare Interior Care with the interior scope of other packages."
+      ],
+      [
+        "Steam cleaning",
+        "Explore the Steam Wash package and check surface suitability."
+      ],
+      [
+        "One-step enhancement",
+        "Discuss Paint Enhancement for a gloss-focused refresh."
+      ],
+      [
+        "Two-step correction",
+        "Assess swirls and light scratches before selecting Paint Correction."
+      ],
+      [
+        "Wheels & tyres",
+        "Compare tyre, wheel and alloy cleaning across the packages."
+      ],
+      [
+        "Sealant finish",
+        "Exterior sealant is listed in Paint Enhancement and Paint Correction."
+      ]
+    ],
+    "faqs": [
+      {
+        "q": "How is detailing different from a wash?",
+        "a": "A wash focuses on cleaning. A detailing visit can include deeper cleaning, surface-specific care and suitable paint enhancement, depending on the agreed scope."
+      },
+      {
+        "q": "Will every stain or scratch disappear?",
+        "a": "No. Outcomes depend on the material, condition and depth of damage. We assess what can reasonably be improved before treatment."
+      },
+      {
+        "q": "Is paint correction included in every package?",
+        "a": "No. The Paint Correction package lists two-step correction; Paint Enhancement lists a one-step polish. Other packages do not automatically include correction. The studio assesses suitability before proceeding."
+      },
+      {
+        "q": "How long should I leave my vehicle?",
+        "a": "Timing depends on its size, condition and selected services. We’ll confirm an estimate after reviewing the vehicle."
+      },
+      {
+        "q": "Does a package include PPF or coatings?",
+        "a": "These detailing packages do not include PPF or coating plans. Explore them separately if you want to discuss longer-term surface protection."
+      }
+    ]
+  },
+  "own-a-studio": {
+    "models": [
+      {
+        "name": "Studio Model",
+        "desc": "Explore a dedicated Mr. Detailer studio. Share your location, property status and plans for day-to-day involvement so the team can discuss setup and suitability."
+      },
+      {
+        "name": "Dealership Model",
+        "desc": "Discuss a car-care operation in a dealership setting. Share the dealership context, location and proposed arrangement for review."
+      },
+      {
+        "name": "Multi-City Partner",
+        "desc": "Explore a broader partnership conversation across multiple locations. Share your regional experience, management capability and proposed cities."
+      }
+    ],
+    "fields": [
+      [
+        "Name",
+        "name"
+      ],
+      [
+        "Contact",
+        "phone"
+      ],
+      [
+        "Location",
+        "city"
+      ],
+      [
+        "Model",
+        "model"
+      ],
+      [
+        "Background",
+        "experience"
+      ],
+      [
+        "Property",
+        "property"
+      ],
+      [
+        "Plans",
+        "plans"
+      ]
+    ],
+    "faqs": [
+      {
+        "q": "Do I need detailing experience?",
+        "a": "Share your background with the team. Training needs and partner suitability are discussed during the review; experience requirements depend on the proposed role and model."
+      },
+      {
+        "q": "Can I propose my own city or property?",
+        "a": "Yes. Include the city and property status in your enquiry. Location suitability and territory availability require review."
+      },
+      {
+        "q": "What services can a studio offer?",
+        "a": "The catalogue includes PPF, Ceramic, Graphene and Borophene coatings, paint correction and detailing. The approved service scope depends on the model, setup and agreement."
+      },
+      {
+        "q": "What about investment and commercial terms?",
+        "a": "The team will discuss setup requirements and commercial terms after understanding your proposed model and location. Final terms belong in a written proposal and agreement."
+      },
+      {
+        "q": "Does an enquiry guarantee a franchise?",
+        "a": "No. This is the first step in a discussion. Partner selection, property approval and any agreement require review by Mr. Detailer."
+      }
+    ]
+  },
+  "packages-journey": {
+    "packages": [
+      {
+        "name": "Interior + Exterior",
+        "purpose": "Everyday refresh",
+        "desc": "A balanced clean for the bodywork and cabin, with attention to the details you use every day.",
+        "ideal": "Regular maintenance, daily drivers and family cars.",
+        "tag": "Clean inside & out",
+        "items": [
+          "Exterior foam wash",
+          "Interior vacuuming",
+          "Dashboard & plastics care",
+          "Tyre & alloy cleaning",
+          "Glass cleaning",
+          "Door & trim cleaning",
+          "Seat & upholstery care",
+          "Air vent & console detailing",
+          "Exterior drying & wipe down",
+          "Rubber & plastic dressing",
+          "Fragrance finish",
+          "Quality check & final touch"
+        ],
+        "note": "For routine cleaning and upkeep. For deeper cabin cleaning, explore Interior Care."
+      },
+      {
+        "name": "Steam Wash",
+        "purpose": "A deeper clean",
+        "desc": "A steam-led refresh with underbody cleaning and paint decontamination for a cleaner feel and finish.",
+        "ideal": "Regular upkeep, city driving and cars needing a more thorough refresh.",
+        "tag": "Steam & decontamination",
+        "items": [
+          "Exterior steam wash",
+          "Underbody wash",
+          "Clay bar treatment",
+          "Tyre & wheel cleaning",
+          "Engine bay steam touch",
+          "Glass & dashboard cleaning",
+          "Interior vacuuming",
+          "Door & trim cleaning",
+          "Seat & upholstery care",
+          "Air vent & console detailing",
+          "Exterior drying & wipe down"
+        ],
+        "note": "The team assesses suitable areas and vehicle condition before steam cleaning."
+      },
+      {
+        "name": "Paint Enhancement",
+        "purpose": "More gloss",
+        "desc": "A one-step polish to improve paint gloss and clarity, completed with exterior sealant protection.",
+        "ideal": "Newer cars, maintaining shine and owners seeking a glossy finish.",
+        "tag": "1-step polish",
+        "items": [
+          "Exterior foam wash",
+          "Clay bar treatment",
+          "Polish enhancement (1 step)",
+          "Paint surface gloss boost",
+          "Tyre & alloy cleaning",
+          "Glass cleaning",
+          "Interior vacuuming",
+          "Dashboard & plastics care",
+          "Exterior sealant protection",
+          "Interior fragrance"
+        ],
+        "note": "Focused on improving shine. The amount of visible improvement depends on the paint condition."
+      },
+      {
+        "name": "Paint Correction",
+        "purpose": "Refine imperfections",
+        "desc": "Two-step paint correction with decontamination and high-gloss polishing to address suitable swirls and light scratches.",
+        "ideal": "Paint with swirls, light scratches or dullness, and pre-sale preparation.",
+        "tag": "2-step correction",
+        "items": [
+          "Exterior foam wash",
+          "Iron & tar decontamination",
+          "Clay bar treatment",
+          "Paint correction (2 step)",
+          "High-gloss polishing",
+          "Tyre & alloy detailing",
+          "Glass & mirror cleaning",
+          "Interior vacuuming",
+          "Dashboard & plastics care",
+          "Door & trim cleaning",
+          "Interior fragrance",
+          "Exterior sealant protection"
+        ],
+        "note": "Paint is inspected before correction. Deep scratches or damage through the paint may require a different repair."
+      },
+      {
+        "name": "Interior Care",
+        "purpose": "A fresher cabin",
+        "desc": "Focused interior cleaning, upholstery care and odour treatment for the surfaces around you.",
+        "ideal": "Daily drivers, family cars, pet owners and pre-delivery refreshes.",
+        "tag": "Dedicated cabin care",
+        "items": [
+          "Deep vacuuming of seats, carpets & boot",
+          "Seat & upholstery cleaning",
+          "Dashboard & console cleaning",
+          "Door panels, handles & storage compartments",
+          "Air vent & AC duct cleaning",
+          "Interior glass & mirror cleaning",
+          "Odour elimination",
+          "Interior dressing"
+        ],
+        "note": "Cleaning methods depend on the materials and condition. Existing stains and odours are assessed before treatment."
+      }
+    ],
+    "faqs": []
+  },
+  "packages": {
+    "packages": [
+      {
+        "name": "Interior + Exterior",
+        "purpose": "Everyday refresh",
+        "desc": "A balanced clean for the bodywork and cabin, with attention to the details you use every day.",
+        "ideal": "Regular maintenance, daily drivers and family cars.",
+        "tag": "Clean inside & out",
+        "items": [
+          "Exterior foam wash",
+          "Interior vacuuming",
+          "Dashboard & plastics care",
+          "Tyre & alloy cleaning",
+          "Glass cleaning",
+          "Door & trim cleaning",
+          "Seat & upholstery care",
+          "Air vent & console detailing",
+          "Exterior drying & wipe down",
+          "Rubber & plastic dressing",
+          "Fragrance finish",
+          "Quality check & final touch"
+        ],
+        "note": "For routine cleaning and upkeep. For deeper cabin cleaning, explore Interior Care."
+      },
+      {
+        "name": "Steam Wash",
+        "purpose": "A deeper clean",
+        "desc": "A steam-led refresh with underbody cleaning and paint decontamination for a cleaner feel and finish.",
+        "ideal": "Regular upkeep, city driving and cars needing a more thorough refresh.",
+        "tag": "Steam & decontamination",
+        "items": [
+          "Exterior steam wash",
+          "Underbody wash",
+          "Clay bar treatment",
+          "Tyre & wheel cleaning",
+          "Engine bay steam touch",
+          "Glass & dashboard cleaning",
+          "Interior vacuuming",
+          "Door & trim cleaning",
+          "Seat & upholstery care",
+          "Air vent & console detailing",
+          "Exterior drying & wipe down"
+        ],
+        "note": "The team assesses suitable areas and vehicle condition before steam cleaning."
+      },
+      {
+        "name": "Paint Enhancement",
+        "purpose": "More gloss",
+        "desc": "A one-step polish to improve paint gloss and clarity, completed with exterior sealant protection.",
+        "ideal": "Newer cars, maintaining shine and owners seeking a glossy finish.",
+        "tag": "1-step polish",
+        "items": [
+          "Exterior foam wash",
+          "Clay bar treatment",
+          "Polish enhancement (1 step)",
+          "Paint surface gloss boost",
+          "Tyre & alloy cleaning",
+          "Glass cleaning",
+          "Interior vacuuming",
+          "Dashboard & plastics care",
+          "Exterior sealant protection",
+          "Interior fragrance"
+        ],
+        "note": "Focused on improving shine. The amount of visible improvement depends on the paint condition."
+      },
+      {
+        "name": "Paint Correction",
+        "purpose": "Refine imperfections",
+        "desc": "Two-step paint correction with decontamination and high-gloss polishing to address suitable swirls and light scratches.",
+        "ideal": "Paint with swirls, light scratches or dullness, and pre-sale preparation.",
+        "tag": "2-step correction",
+        "items": [
+          "Exterior foam wash",
+          "Iron & tar decontamination",
+          "Clay bar treatment",
+          "Paint correction (2 step)",
+          "High-gloss polishing",
+          "Tyre & alloy detailing",
+          "Glass & mirror cleaning",
+          "Interior vacuuming",
+          "Dashboard & plastics care",
+          "Door & trim cleaning",
+          "Interior fragrance",
+          "Exterior sealant protection"
+        ],
+        "note": "Paint is inspected before correction. Deep scratches or damage through the paint may require a different repair."
+      },
+      {
+        "name": "Interior Care",
+        "purpose": "A fresher cabin",
+        "desc": "Focused interior cleaning, upholstery care and odour treatment for the surfaces around you.",
+        "ideal": "Daily drivers, family cars, pet owners and pre-delivery refreshes.",
+        "tag": "Dedicated cabin care",
+        "items": [
+          "Deep vacuuming of seats, carpets & boot",
+          "Seat & upholstery cleaning",
+          "Dashboard & console cleaning",
+          "Door panels, handles & storage compartments",
+          "Air vent & AC duct cleaning",
+          "Interior glass & mirror cleaning",
+          "Odour elimination",
+          "Interior dressing"
+        ],
+        "note": "Cleaning methods depend on the materials and condition. Existing stains and odours are assessed before treatment."
+      }
+    ],
+    "images": [
+      "ceramic.png",
+      "car.jpg",
+      "borophene.png",
+      "graphene.png",
+      "interior.png"
+    ],
+    "faqs": [
+      {
+        "q": "Which package should I choose?",
+        "a": "Use the goals above as a starting point. If you are unsure, share your vehicle and concerns with the studio. An inspection helps confirm the suitable package."
+      },
+      {
+        "q": "Will polishing remove every scratch?",
+        "a": "The outcome depends on scratch depth and paint condition. Paint Correction addresses suitable swirls and light scratches; deeper damage may require repair or repainting."
+      },
+      {
+        "q": "Is sealant the same as a ceramic coating?",
+        "a": "Sealant is included in the two paint-care packages. Ceramic, Graphene and Borophene coatings are separate services with their own preparation and product options."
+      },
+      {
+        "q": "How do I arrange a visit?",
+        "a": "Prepare an enquiry with the package, vehicle and your requirements. Send it through WhatsApp or email; the studio confirms availability and the appointment."
+      }
+    ]
+  },
+  "shop-care-shelf": {
+    "products": [
+      {
+        "name": "All in One Polish",
+        "cat": "Exterior",
+        "desc": "Explore a polish option for your exterior care routine.",
+        "detail": "Ask the studio about suitable paint finishes, application method and compatibility with existing protection.",
+        "wash": "#e6ead7",
+        "accent": "#80925a"
+      },
+      {
+        "name": "Carnauba Wax Polish",
+        "cat": "Exterior",
+        "desc": "Discuss a wax finish for suitable painted surfaces.",
+        "detail": "Confirm surface suitability, preparation and care requirements before choosing. Benefits depend on the final product formulation.",
+        "wash": "#efe4c8",
+        "accent": "#ba9a4f"
+      },
+      {
+        "name": "Crystal Glass Cleaner",
+        "cat": "Glass & cabin",
+        "desc": "A glass-care option to discuss for your cleaning routine.",
+        "detail": "Ask about compatibility with tinted glass, window films and existing glass treatments. Follow the confirmed label instructions.",
+        "wash": "#dbe8e9",
+        "accent": "#79a1a7"
+      },
+      {
+        "name": "Air Freshener",
+        "cat": "Glass & cabin",
+        "desc": "Explore available fragrances for a personal cabin touch.",
+        "detail": "Fragrance options and application format are confirmed by the studio. Ask where and how the selected product should be used.",
+        "wash": "#ebdeeb",
+        "accent": "#aa82aa"
+      },
+      {
+        "name": "Microfibre Care Cloth",
+        "cat": "Accessories",
+        "desc": "Explore cloth options for different cleaning tasks.",
+        "detail": "Demo accessory listing. Confirm available cloth types and their suitability for paint, glass or interiors. Keep cloths clean and separate by task.",
+        "wash": "#e0e8eb",
+        "accent": "#6b8c95",
+        "type": "cloth"
+      },
+      {
+        "name": "Pro Detail Kit",
+        "cat": "Kits",
+        "desc": "Explore a coordinated set of car-care essentials.",
+        "detail": "Discuss the current kit contents and pack sizes with the studio. This demo does not assume a fixed number of items or confirmed stock.",
+        "wash": "#dce8cf",
+        "accent": "#749d65",
+        "type": "kit"
+      }
+    ],
+    "categories": [
+      "All products",
+      "Exterior",
+      "Glass & cabin",
+      "Accessories",
+      "Kits"
+    ],
+    "faqs": []
+  },
+  "warranty-care-hub": {
+    "modes": [
+      {
+        "title": "Check your warranty",
+        "label": "WARRANTY CHECK",
+        "heading": "Let’s find your record.",
+        "intro": "Contact the Warranty Hub with your service invoice and product details. The studio confirms coverage and terms for the treatment you received.",
+        "items": [
+          "Warranty number or invoice reference",
+          "Vehicle registration and selected product",
+          "Installing studio and service records"
+        ]
+      },
+      {
+        "title": "Maintenance schedule",
+        "label": "CARE GUIDANCE",
+        "heading": "Know what comes next.",
+        "intro": "Ask for the maintenance guidance relevant to your selected treatment. Share your product and service details so the studio can advise you.",
+        "items": [
+          "Washing and care instructions",
+          "Applicable maintenance visits",
+          "Service history and next steps"
+        ]
+      },
+      {
+        "title": "Annual inspection",
+        "label": "INSPECTION REQUEST",
+        "heading": "Plan your yearly check.",
+        "intro": "Confirm inspection requirements with the installing studio and request a suitable date. A request does not reserve an appointment.",
+        "items": [
+          "Product and installation details",
+          "Maintenance records",
+          "A preferred inspection date"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does every product have the same warranty?",
+        "a": "No. Use the warranty issued for your selected product and installation. A catalogue maximum duration does not confirm your individual coverage."
+      },
+      {
+        "q": "What maintenance is required?",
+        "a": "Follow the written maintenance schedule. Mr. Detailer’s stated terms require annual free service; missing it cancels the warranty. Confirm the requirements recorded for your product with the studio."
+      },
+      {
+        "q": "What is excluded?",
+        "a": "The catalogue excludes damage from accidents, misuse, negligence and improper care. The written warranty contains the complete exclusions."
+      },
+      {
+        "q": "Can I transfer my warranty?",
+        "a": "The catalogue describes the warranty as non-transferable. Ask the studio to confirm the terms of your issued warranty."
+      },
+      {
+        "q": "Can this demo activate or check my warranty?",
+        "a": "No. It prepares a request for the studio. Real registration, status checks, certificates and reminders require a connected warranty system."
+      }
+    ]
+  }
+}

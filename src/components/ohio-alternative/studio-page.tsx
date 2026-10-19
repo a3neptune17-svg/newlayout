@@ -202,7 +202,7 @@ export function StudioPage() {
               ABOUT NAMEX
             </h2>
             <p>
-              Know what protects your car. A beautiful finish deserves thoughtful protection. Explore NameX at Mr. Detailer.
+              INVISIBLE PROTECTION, MAXIMUM CONFIDENCE
             </p>
             {clientConfig.namexUrl && <a className="o31-text-link" href={clientConfig.namexUrl} target="_blank" rel="noopener noreferrer">Explore NameX ↗</a>}
           </div>

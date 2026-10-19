@@ -4,7 +4,7 @@ export const clientConfig = {
   telephone: "tel:+917693606006",
   email: "care@mrdetailer.co.in",
   namexUrl: "", // Inactive until client confirms official URL
-  location: "",
+  location: "SCF 1, I Block, Sarabha Nagar, Ludhiana – 141001",
   office: "",
   // Note: Client instructions noted conflict between 'X Frost' (handwritten reference) and 'X Cruise'.
   // We include 'X Frost' per reference image notes while reporting the ambiguity for final client confirmation.

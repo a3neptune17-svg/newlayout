@@ -625,7 +625,8 @@
 .ohio-client-preview .or-popup-row:hover .or-popup-sub-items,
 .ohio-client-preview .or-popup-row.is-hovered .or-popup-sub-items,
 .ohio-client-preview .or-popup-sub-items.is-expanded {
-  max-height: 280px;
+  max-height: min(480px, 60svh);
+  overflow-y: auto;
   opacity: 1;
   pointer-events: auto;
   transform: translateY(0);

@@ -1,6 +1,7 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef } from "react";
+import { useSiteTheme } from "./use-site-theme";
 
 import "./theme.css";
 
@@ -12,9 +13,13 @@ export function ThemeControl({
   setTheme?: (theme: "light" | "dark") => void;
 } = {}) {
   const ref = useRef<HTMLButtonElement>(null);
-  const [localTheme, setLocalTheme] = useState<"light" | "dark">("dark");
+  const [localTheme, setLocalTheme] = useSiteTheme();
 
   const currentTheme = theme ?? localTheme;
+  useEffect(() => {
+    const root = ref.current?.closest<HTMLElement>(".ohio-rebuild, .ohio-preview-two");
+    if (root) root.dataset.theme = currentTheme;
+  }, [currentTheme]);
 
   const toggle = () => {
     const next = currentTheme === "dark" ? "light" : "dark";
