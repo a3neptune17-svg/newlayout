@@ -199,7 +199,7 @@ export function StudioPage() {
               <Image className="client-namex-logo client-namex-logo-light" src={clientConfig.namexLogoLight} alt="NameX" width={220} height={83} />
             </div>
             <h2 id="o31-namex-title">
-              ABOUT NAMEX
+              <Link className="client-namex-heading-link" href="/ohio-preview/explore/namex">ABOUT NAMEX ↗</Link>
             </h2>
             <p>
               INVISIBLE PROTECTION, MAXIMUM CONFIDENCE

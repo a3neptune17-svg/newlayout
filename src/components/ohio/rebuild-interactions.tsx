@@ -89,6 +89,7 @@ export const navigation: NavItem[] = [
     "href": "/ohio-preview/explore/shop",
     "tagline": "Curated Studio Products & Kits",
     "children": [
+      ["NameX Collection", "/ohio-preview/explore/namex"],
       [
         "Exterior Care",
         "/ohio-preview/explore/exterior-care"

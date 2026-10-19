@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { clientConfig } from "./client-config";
+import { clientConfig, ohioPage } from "./client-config";
 import { whatsapp } from "./rebuild-data";
 import { ArrowUpRight, WhatsAppMark } from "./icons";
 
@@ -123,7 +123,7 @@ export function NamexShowcase() {
       {/* Brand Header */}
       <div className="namex-header">
         <div className="namex-brand-lockup">
-          <div className="client-namex-logo-wrap">
+          <a className="client-namex-logo-wrap" href={ohioPage("namex")} aria-label="Explore the NameX collection">
             <Image
               className="client-namex-logo client-namex-logo-dark"
               src={clientConfig.namexLogoDark}
@@ -140,7 +140,7 @@ export function NamexShowcase() {
               height={70}
               style={{ width: "auto", height: "42px", objectFit: "contain" }}
             />
-          </div>
+          </a>
           <span className="namex-byline">SURFACE SCIENCE · BY MR. DETAILER</span>
         </div>
 

@@ -86,13 +86,14 @@ export function RebuildPage({ previewOne = false }: { previewOne?: boolean }) {
           previewOne={previewOne}
           intro={
             <div className="or-intro or-namex-intro">
-              <h2>ABOUT NAMEX</h2>
+              <h2><a className="client-namex-heading-link" href={ohioPage("namex")}>ABOUT NAMEX ↗</a></h2>
               <div className="or-namex-intro-body">
-                <div className="client-namex-logo-wrap">
+                <a className="client-namex-logo-wrap" href={ohioPage("namex")} aria-label="Explore the NameX collection">
                   <Image className="client-namex-logo client-namex-logo-dark" src={clientConfig.namexLogoDark} alt="NameX" width={220} height={83} />
                   <Image className="client-namex-logo client-namex-logo-light" src={clientConfig.namexLogoLight} alt="NameX" width={220} height={83} />
-                </div>
+                </a>
                 <p className="or-intro-copy">INVISIBLE PROTECTION, MAXIMUM CONFIDENCE</p>
+                <a className="or-pill" href={ohioPage("namex")}>Explore the collection <ArrowRight className="or-arrow-inline" /></a>
                 {clientConfig.namexUrl && <a className="or-pill" href={clientConfig.namexUrl} target="_blank" rel="noopener noreferrer">Explore NameX <ArrowRight className="or-arrow-inline"/></a>}
               </div>
             </div>

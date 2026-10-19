@@ -10,6 +10,7 @@ import { imagePath, whatsapp } from "./rebuild-data";
 import { Booking } from "../ohio-3-1/booking";
 import { ArrowLeft, ArrowRight, ArrowUpRight, WhatsAppMark } from "./icons";
 import type { DetailContent } from "./detail-content";
+import { NamexPage } from "./namex-page";
 
 // Specialized Inner Pages
 import { PackagesExperience } from "./inner-pages/audited-experiences";
@@ -39,6 +40,7 @@ export function DetailPage({ content }: { content: DetailContent }) {
   const isWarranty = content.kind === "warranty";
   const isFranchise = content.kind === "franchise";
   const isJournal = content.kind === "journal";
+  const isNamex = content.kind === "namex";
 
   const isCustomInteractive =
     isPackages ||
@@ -50,7 +52,7 @@ export function DetailPage({ content }: { content: DetailContent }) {
     isAbout ||
     isWarranty ||
     isFranchise ||
-    isJournal;
+    isJournal || isNamex;
 
   return (
     <div className="ohio-rebuild or-preview-one" data-theme={theme} id="home">
@@ -70,6 +72,7 @@ export function DetailPage({ content }: { content: DetailContent }) {
           </header>
 
           {/* 1. Packages / Packages Journey */}
+          {isNamex && <NamexPage />}
           {isPackages && <PackagesExperience />}
 
           {/* 2. Coatings Gallery */}
@@ -221,6 +224,16 @@ export function DetailPage({ content }: { content: DetailContent }) {
             </div>
           )}
 
+          {(["packages", "planner", "auto-mods", "tuning", "coatings"] as const).some(kind => kind === content.kind) && <section className="client-studio-pair" aria-label="Inside the studio">
+            <div><p className="client-detail-eyebrow">INSIDE THE STUDIO</p><h2>Care in every detail.</h2></div>
+            <div className="client-studio-pair-grid">{(content.kind === "coatings" || content.kind === "tuning" ? [
+              { image: "studio-ppf-installation.jpg", caption: "Surface preparation and film application" },
+              { image: "studio-ppf-squeegee.jpg", caption: "Attention to the finish" },
+            ] : [
+              { image: "studio-polishing-hood.jpg", caption: "Refining the finish" },
+              { image: "studio-paint-correction.jpg", caption: "A closer look at the work" },
+            ]).map(photo => <figure key={photo.image}><Image src={`/images/${photo.image}`} alt={photo.caption} width={800} height={520} sizes="(max-width:768px) 100vw, 40vw" /><figcaption>{photo.caption}</figcaption></figure>)}</div>
+          </section>}
           {/* Footer Contact Action Strip */}
           <section className="client-detail-cta">
             <div className="client-detail-cta-copy">

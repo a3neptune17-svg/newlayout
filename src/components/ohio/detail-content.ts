@@ -6,6 +6,7 @@ export type DetailContent = {
   intro: string;
   sections: { title: string; text: string; slug?: string }[];
   kind?:
+    | "namex"
     | "shop"
     | "gallery"
     | "booking"
@@ -23,6 +24,13 @@ export type DetailContent = {
 };
 
 export const detailPages: Record<string, DetailContent> = {
+  namex: {
+    title: "ABOUT NAMEX",
+    eyebrow: "THE NAMEX COLLECTION",
+    intro: "INVISIBLE PROTECTION, MAXIMUM CONFIDENCE",
+    kind: "namex",
+    sections: [],
+  },
   "about-us": {
     title: "About us.",
     eyebrow: "MR. DETAILER",
