@@ -18,9 +18,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mr. Detailer — Premium Auto Detailing Studio",
+  title: "MR. DETAILER — Automotive Detailing & Protection",
   description:
-    "Mr. Detailer is a modern auto detailing studio offering ceramic coating, paint correction, interior deep cleans, and mobile detailing.",
+    "Explore MR. DETAILER paint protection, detailing, coatings, NameX products, and studio services.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

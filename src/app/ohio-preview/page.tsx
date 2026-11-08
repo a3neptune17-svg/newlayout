@@ -10,8 +10,8 @@ const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--or-font"
 import "@/components/ohio/client-refinements.css";
 
 export const metadata: Metadata = {
-  title: "MR. DETAILER — Ohio Client Preview",
-  description: "Compare the two preserved Ohio layout variations for MR. DETAILER.",
+  title: "MR. DETAILER — Automotive Detailing & Protection",
+  description: "Explore MR. DETAILER paint protection, detailing, coatings, NameX products, and studio services.",
 };
 
 export default function OhioPreviewPage() {
