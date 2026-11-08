@@ -1,5 +1,6 @@
 /* Route-scoped reconstruction. Preserved source values: Inter 500, 1.5vw
    gutters, 32vh rail, 28px pills, 260px hero panels, 1180/768 breakpoints. */
+.ohio-client-preview{background:#1a1a18;color:white;min-height:100svh}
 .ohio-rebuild{--or-lime:#e5fca0;--or-ink:#1a1a18;--or-panel:#20201e;--or-rail:32vh;--or-space:1.5vw;background:var(--or-ink);color:#fff;font-family:var(--or-font),Inter,Arial,sans-serif;font-size:16px;line-height:1.4;min-height:100vh;isolation:isolate}
 .ohio-rebuild *{box-sizing:border-box}
 .ohio-rebuild :is(h1,h2,h3,h4,p,ul,figure){margin:0}

@@ -20,159 +20,159 @@ export interface NavItem {
 export const navigation: NavItem[] = [
   {
     "label": "HOME",
-    "href": "/ohio-preview",
+    "href": "/",
     "tagline": "Studio Overview & Craft",
     "children": [
       [
         "Overview",
-        "/ohio-preview"
+        "/"
       ],
       [
         "About Us",
-        "/ohio-preview/explore/about-us"
+        "/about-us"
       ],
       [
         "Our Process",
-        "/ohio-preview/explore/process"
+        "/process"
       ],
       [
         "Gallery",
-        "/ohio-preview/explore/gallery"
+        "/gallery"
       ]
     ]
   },
   {
     "label": "OUR SERVICES",
-    "href": "/ohio-preview/explore/services",
+    "href": "/services",
     "tagline": "Precision Surface Treatments",
     "children": [
       [
         "Coatings",
-        "/ohio-preview/explore/coatings"
+        "/coatings"
       ],
       [
         "Paint Protection Film / PPF",
-        "/ohio-preview/explore/ppf"
+        "/ppf"
       ],
       [
         "Detailing Packages",
-        "/ohio-preview/explore/detailing"
+        "/detailing"
       ],
       [
         "Auto Mods",
-        "/ohio-preview/explore/auto-mods"
+        "/auto-mods"
       ],
       [
         "Car Care Packages",
-        "/ohio-preview/explore/car-care"
+        "/car-care"
       ],
       [
         "Packages Journey",
-        "/ohio-preview/explore/packages-journey"
+        "/packages-journey"
       ],
       [
         "Detailing Menu",
-        "/ohio-preview/explore/detailing-menu"
+        "/detailing-menu"
       ],
       [
         "Auto Tuning",
-        "/ohio-preview/explore/autotuning"
+        "/autotuning"
       ],
       [
         "Customisation Build",
-        "/ohio-preview/explore/customisation-build#autotuning"
+        "/customisation-build#autotuning"
       ]
     ]
   },
   {
     "label": "SHOP",
-    "href": "/ohio-preview/explore/shop",
+    "href": "/shop",
     "tagline": "Curated Studio Products & Kits",
     "children": [
-      ["NameX Collection", "/ohio-preview/explore/namex"],
+      ["NameX Collection", "/namex"],
       [
         "Exterior Care",
-        "/ohio-preview/explore/exterior-care"
+        "/exterior-care"
       ],
       [
         "Interior Care",
-        "/ohio-preview/explore/interior-care"
+        "/interior-care"
       ],
       [
         "Accessories",
-        "/ohio-preview/explore/accessories"
+        "/accessories"
       ],
       [
         "Detailing Kits",
-        "/ohio-preview/explore/detailing-kits"
+        "/detailing-kits"
       ],
       [
         "Product Guide",
-        "/ohio-preview/explore/product-guide"
+        "/product-guide"
       ]
     ]
   },
   {
     "label": "WARRANTY HUB",
-    "href": "/ohio-preview/explore/warranty",
+    "href": "/warranty",
     "tagline": "Care beyond the studio",
     "children": [
       [
         "Check Your Warranty",
-        "/ohio-preview/explore/warranty"
+        "/warranty"
       ],
       [
         "Maintenance Schedule",
-        "/ohio-preview/explore/maintenance"
+        "/maintenance"
       ],
       [
         "Annual Inspection",
-        "/ohio-preview/explore/annual-inspection"
+        "/annual-inspection"
       ]
     ]
   },
   {
     "label": "OWN A STUDIO",
-    "href": "/ohio-preview/explore/own-a-studio",
+    "href": "/own-a-studio",
     "tagline": "Partnership & Expansion",
     "children": [
       [
         "Meet the Team",
-        "/ohio-preview/explore/meet-the-team"
+        "/meet-the-team"
       ],
       [
         "Meet Us",
-        "/ohio-preview/explore/meet-us"
+        "/meet-us"
       ]
     ]
   },
   {
     "label": "JOURNAL",
-    "href": "/ohio-preview/explore/journal",
+    "href": "/journal",
     "tagline": "Detailing Tips & Guides",
     "children": [
       [
         "Detailing Tips",
-        "/ohio-preview/explore/detailing-tips"
+        "/detailing-tips"
       ],
       [
         "Product Guide",
-        "/ohio-preview/explore/product-guide"
+        "/product-guide"
       ],
       [
         "Latest Updates",
-        "/ohio-preview/explore/latest-updates"
+        "/latest-updates"
       ]
     ]
   },
   {
     "label": "CONNECT",
-    "href": "/ohio-preview/explore/connect",
+    "href": "/connect",
     "tagline": "Reach Mr. Detailer Directly",
     "children": [
       [
         "Book an Appointment",
-        "/ohio-preview/explore/booking"
+        "/booking"
       ],
       [
         "Call Us",
@@ -188,11 +188,11 @@ export const navigation: NavItem[] = [
       ],
       [
         "Visiting Us",
-        "/ohio-preview/explore/visiting"
+        "/visiting"
       ],
       [
         "Working Hours",
-        "/ohio-preview/explore/working-hours"
+        "/working-hours"
       ]
     ]
   }
@@ -359,7 +359,7 @@ export function RebuildNavigation() {
   const [hoveredMenuRow, setHoveredMenuRow] = useState<string | null>(null);
   const pathname = usePathname();
   const [active, setActive] = useState(pathname);
-  const [overHero, setOverHero] = useState(pathname === "/ohio-preview" || pathname === "/ohio");
+  const [overHero, setOverHero] = useState(pathname === "/");
   useEffect(() => {
     const hero = document.getElementById("hero");
     if (!hero) return;
@@ -456,9 +456,9 @@ export function RebuildNavigation() {
   useEffect(() => {
     const sectionIds = ["hero", "work", "process", "car-care-photo", "services", "blog", "resources", "connect"];
     const sectionMap: Record<string, string> = {
-      hero: "/ohio-preview",
-      work: "/ohio-preview",
-      process: "/ohio-preview",
+      hero: "/",
+      work: "/",
+      process: "/",
       "car-care-photo": ohioPage("services"),
       services: ohioPage("services"),
       blog: ohioPage("journal"),
@@ -524,7 +524,7 @@ export function RebuildNavigation() {
           >
             <FourLinesMenuIcon className="or-menu-icon" isOpen={menuOpen} />
           </button>
-          <a className="or-brand or-brand-logo-link" href="/ohio-preview" aria-label="MR. DETAILER home">
+          <a className="or-brand or-brand-logo-link" href="/" aria-label="MR. DETAILER home">
             <Image
               src="/images/mrdetailer-logo-dark.png"
               alt="MR. DETAILER"

@@ -7,7 +7,7 @@ export function ClientFooter() {
   return (
     <footer className="client-footer">
       <div className="client-footer-grid">
-        <a href="/ohio-preview" className="client-footer-logo-link" aria-label="MR. DETAILER home">
+        <a href="/" className="client-footer-logo-link" aria-label="MR. DETAILER home">
           <Image
             src={clientConfig.detailerLogoDark}
             alt="MR. DETAILER"
@@ -50,7 +50,6 @@ export function ClientFooter() {
           <a href={ohioPage("cookies")}>Cookie Policy</a>
           <a href={ohioPage("terms")}>Terms of Service</a>
         </nav>
-        <a href="/ohio-preview/second">Preview 2 ↗</a>
       </div>
     </footer>
   );

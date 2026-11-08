@@ -61,7 +61,7 @@ export function DetailPage({ content }: { content: DetailContent }) {
 
       <main className="or-main" id="main">
         <article className="client-detail">
-          <a href="/ohio-preview" className="client-detail-back">
+          <a href="/" className="client-detail-back">
             <ArrowLeft className="or-arrow-inline" /> Back to Studio Overview
           </a>
 

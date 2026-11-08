@@ -21,4 +21,4 @@ export const clientConfig = {
   namexCeramicMatrix: "/images/namex-ceramic-matrix.jpg",
 };
 
-export const ohioPage = (slug: string) => `/ohio-preview/explore/${slug}`;
+export const ohioPage = (slug: string) => `/${slug}`;
